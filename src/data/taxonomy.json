@@ -1,0 +1,225 @@
+{
+  "interests": [
+    {
+      "id": "technology",
+      "label": "Technology and coding",
+      "description": "Software, systems, and learning by building."
+    },
+    {
+      "id": "data",
+      "label": "Data and numbers",
+      "description": "Tables, measures, and careful conclusions."
+    },
+    {
+      "id": "design",
+      "label": "Design and visual craft",
+      "description": "How something looks, feels, and gets used."
+    },
+    {
+      "id": "healthcare",
+      "label": "Health and care",
+      "description": "Bodies, illness, prevention, and clinical work."
+    },
+    {
+      "id": "environment",
+      "label": "Environment and sustainability",
+      "description": "Air, water, land, and the systems that affect them."
+    },
+    {
+      "id": "business",
+      "label": "Business and strategy",
+      "description": "How organisations choose, ship, and explain value."
+    },
+    {
+      "id": "public_service",
+      "label": "Public service and policy",
+      "description": "Government, rules, and work done for the public."
+    },
+    {
+      "id": "research",
+      "label": "Research and discovery",
+      "description": "Questions, methods, and writing up what you found."
+    },
+    {
+      "id": "hardware",
+      "label": "Hardware and devices",
+      "description": "Circuits, machines, sensors, and physical systems."
+    },
+    {
+      "id": "communication",
+      "label": "Communication and content",
+      "description": "Writing, explaining, and shaping a message."
+    },
+    {
+      "id": "finance",
+      "label": "Finance and markets",
+      "description": "Accounts, risk, and how money moves."
+    },
+    {
+      "id": "teaching",
+      "label": "Teaching and mentoring",
+      "description": "Helping someone else understand and practise."
+    },
+    {
+      "id": "making",
+      "label": "Making and building",
+      "description": "Taking an idea through to a thing that works."
+    }
+  ],
+  "groups": [
+    "Software",
+    "Data",
+    "Design",
+    "Science and health",
+    "Engineering",
+    "Work and society"
+  ],
+  "skills": [
+    { "id": "programming", "name": "Programming fundamentals", "short": "Programming", "group": "Software" },
+    { "id": "python", "name": "Python", "short": "Python", "group": "Software" },
+    { "id": "web_development", "name": "Web development", "short": "Web", "group": "Software" },
+    { "id": "algorithms", "name": "Algorithms and problem solving", "short": "Algorithms", "group": "Software" },
+    { "id": "databases", "name": "Databases", "short": "Databases", "group": "Software" },
+    { "id": "sql", "name": "SQL", "short": "SQL", "group": "Software" },
+    { "id": "mobile_dev", "name": "Mobile development", "short": "Mobile", "group": "Software" },
+    { "id": "cloud", "name": "Cloud platforms", "short": "Cloud", "group": "Software" },
+    { "id": "cybersecurity", "name": "Cybersecurity fundamentals", "short": "Security", "group": "Software" },
+    { "id": "networking", "name": "Computer networking", "short": "Networks", "group": "Software" },
+    { "id": "embedded", "name": "Embedded systems", "short": "Embedded", "group": "Software" },
+    { "id": "sensors", "name": "Sensors and electronics", "short": "Sensors", "group": "Software" },
+    { "id": "machine_learning", "name": "Machine learning", "short": "ML", "group": "Data" },
+    { "id": "statistics", "name": "Statistics", "short": "Statistics", "group": "Data" },
+    { "id": "data_visualization", "name": "Data visualization", "short": "Charts", "group": "Data" },
+    { "id": "excel_analysis", "name": "Spreadsheets and tabular analysis", "short": "Sheets", "group": "Data" },
+    { "id": "gis", "name": "GIS and spatial data", "short": "GIS", "group": "Data" },
+    { "id": "aqi_analysis", "name": "Air-quality data analysis", "short": "Air quality", "group": "Data" },
+    { "id": "visual_design", "name": "Visual design", "short": "Visual", "group": "Design" },
+    { "id": "user_research", "name": "User research", "short": "Users", "group": "Design" },
+    { "id": "prototyping", "name": "Prototyping", "short": "Prototypes", "group": "Design" },
+    { "id": "graphic_design", "name": "Graphic design", "short": "Graphics", "group": "Design" },
+    { "id": "biology", "name": "Biology and life sciences", "short": "Biology", "group": "Science and health" },
+    { "id": "anatomy", "name": "Human anatomy and physiology", "short": "Anatomy", "group": "Science and health" },
+    { "id": "clinical_research", "name": "Clinical research methods", "short": "Trials", "group": "Science and health" },
+    { "id": "public_health", "name": "Public health", "short": "Public health", "group": "Science and health" },
+    { "id": "environmental_science", "name": "Environmental science", "short": "Environment", "group": "Science and health" },
+    { "id": "research", "name": "Research methods", "short": "Methods", "group": "Science and health" },
+    { "id": "scientific_writing", "name": "Scientific and technical writing", "short": "Tech writing", "group": "Science and health" },
+    { "id": "cad_design", "name": "CAD and engineering drawing", "short": "CAD", "group": "Engineering" },
+    { "id": "thermodynamics", "name": "Mechanics and thermodynamics", "short": "Mechanics", "group": "Engineering" },
+    { "id": "structural_analysis", "name": "Structural analysis", "short": "Structures", "group": "Engineering" },
+    { "id": "circuit_design", "name": "Circuits and electrical systems", "short": "Circuits", "group": "Engineering" },
+    { "id": "communication", "name": "Communication", "short": "Comms", "group": "Work and society" },
+    { "id": "stakeholder_management", "name": "Stakeholder management", "short": "Stakeholders", "group": "Work and society" },
+    { "id": "product_thinking", "name": "Product thinking", "short": "Product", "group": "Work and society" },
+    { "id": "financial_analysis", "name": "Financial analysis", "short": "Finance", "group": "Work and society" },
+    { "id": "accounting", "name": "Accounting fundamentals", "short": "Accounting", "group": "Work and society" },
+    { "id": "marketing", "name": "Marketing", "short": "Marketing", "group": "Work and society" },
+    { "id": "public_policy", "name": "Public policy and governance", "short": "Policy", "group": "Work and society" },
+    { "id": "general_studies", "name": "General studies and current affairs", "short": "Gen. studies", "group": "Work and society" },
+    { "id": "quantitative_aptitude", "name": "Quantitative aptitude", "short": "Quant", "group": "Work and society" },
+    { "id": "reasoning", "name": "Reasoning and comprehension", "short": "Reasoning", "group": "Work and society" },
+    { "id": "administration", "name": "Administration and procedures", "short": "Admin", "group": "Work and society" },
+    { "id": "teaching", "name": "Teaching and mentoring", "short": "Teaching", "group": "Work and society" },
+    { "id": "writing", "name": "Content writing", "short": "Content", "group": "Work and society" },
+    { "id": "project_management", "name": "Project management", "short": "Projects", "group": "Work and society" }
+  ],
+  "streams": [
+    { "id": "pcm", "label": "Science — PCM (Physics, Chemistry, Mathematics)" },
+    { "id": "pcb", "label": "Science — PCB (Physics, Chemistry, Biology)" },
+    { "id": "commerce", "label": "Commerce" },
+    { "id": "humanities", "label": "Arts and humanities" },
+    { "id": "computer_science", "label": "Computer science or IT" },
+    { "id": "engineering", "label": "Engineering" },
+    { "id": "medicine", "label": "Medicine and allied health" },
+    { "id": "design", "label": "Design" },
+    { "id": "management", "label": "Management" },
+    { "id": "law", "label": "Law" },
+    { "id": "any", "label": "Still exploring or mixed" }
+  ],
+  "levels": [
+    {
+      "id": "high_school",
+      "label": "Secondary school (Class 10–12)",
+      "detail": "You are in school or have finished Class 12 and not started a diploma or degree."
+    },
+    {
+      "id": "diploma",
+      "label": "Diploma or polytechnic",
+      "detail": "A diploma after Class 10 or 12, including polytechnic programmes."
+    },
+    {
+      "id": "bachelors",
+      "label": "Bachelor's degree",
+      "detail": "You have a bachelor's degree, or you are part-way through one."
+    },
+    {
+      "id": "masters",
+      "label": "Master's degree",
+      "detail": "You have a master's degree, or you are part-way through one."
+    },
+    {
+      "id": "doctoral",
+      "label": "Doctoral degree",
+      "detail": "You have a doctorate, or you are enrolled in one."
+    }
+  ],
+  "preferences": [
+    {
+      "id": "sector",
+      "prompt": "Where do you most want to work?",
+      "help": "This is a leaning, not a promise about who will hire you.",
+      "options": [
+        { "id": "any", "label": "No preference" },
+        { "id": "private", "label": "Private company" },
+        { "id": "public", "label": "Government or public sector" },
+        { "id": "startup", "label": "Startup" },
+        { "id": "research", "label": "Research lab or campus" },
+        { "id": "nonprofit", "label": "Nonprofit or social organisation" }
+      ]
+    },
+    {
+      "id": "setting",
+      "prompt": "What setting appeals?",
+      "help": "Many roles mix these. Pick the one you would choose first.",
+      "options": [
+        { "id": "any", "label": "No preference" },
+        { "id": "remote", "label": "Remote" },
+        { "id": "hybrid", "label": "Hybrid" },
+        { "id": "onsite", "label": "On-site" },
+        { "id": "field", "label": "Field or on the ground" }
+      ]
+    },
+    {
+      "id": "focus",
+      "prompt": "What do you like spending your time on?",
+      "help": "Choose the centre of the work, not every task around it.",
+      "options": [
+        { "id": "any", "label": "No preference" },
+        { "id": "people", "label": "People" },
+        { "id": "data", "label": "Data and analysis" },
+        { "id": "systems", "label": "Systems and building" },
+        { "id": "creative", "label": "Creative work" }
+      ]
+    },
+    {
+      "id": "structure",
+      "prompt": "How much structure do you want?",
+      "help": "Structure means a set process. Flexibility means you shape the work.",
+      "options": [
+        { "id": "any", "label": "No preference" },
+        { "id": "structured", "label": "Clear structure" },
+        { "id": "flexible", "label": "Room to shape the work" }
+      ]
+    },
+    {
+      "id": "pace",
+      "prompt": "What pace suits you?",
+      "help": "Fast means frequent change. Steady means longer cycles.",
+      "options": [
+        { "id": "any", "label": "No preference" },
+        { "id": "fast", "label": "Fast-moving" },
+        { "id": "steady", "label": "Steady" }
+      ]
+    }
+  ]
+}

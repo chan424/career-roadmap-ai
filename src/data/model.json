@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "weights": {
+    "skills": 0.45,
+    "interests": 0.25,
+    "education": 0.15,
+    "preferences": 0.15
+  },
+  "education": {
+    "levelWeight": 0.6,
+    "streamWeight": 0.4,
+    "oneStepBelow": 0.55,
+    "furtherBelow": 0.25,
+    "streamMismatch": 0.35
+  },
+  "preference": {
+    "neutral": 0.8,
+    "mismatch": 0.2
+  },
+  "skillScale": 5
+}
