@@ -1,0 +1,20 @@
+{
+  "interests": ["data", "technology", "environment"],
+  "skills": {
+    "python": 4,
+    "machine_learning": 3,
+    "aqi_analysis": 3,
+    "statistics": 2,
+    "programming": 3
+  },
+  "educationLevel": "bachelors",
+  "stream": "engineering",
+  "preferences": {
+    "sector": "private",
+    "setting": "hybrid",
+    "focus": "data",
+    "structure": "flexible",
+    "pace": "steady"
+  },
+  "focusText": "Bachelor's degree, with programming and an interest in air quality"
+}

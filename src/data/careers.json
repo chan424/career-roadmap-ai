@@ -1,0 +1,1716 @@
+[
+  {
+    "id": "software-engineer",
+    "title": "Software Engineer",
+    "category": "Software and IT",
+    "tagline": "Design, build, and look after software other people rely on.",
+    "summary": "Software engineers turn a problem into a program: interfaces, data, and the logic in between. The day-to-day work is writing code, reviewing it, and fixing what breaks when real users arrive.",
+    "interests": ["technology", "making", "business"],
+    "skills": [
+      {"id": "programming", "importance": 5},
+      {"id": "web_development", "importance": 4},
+      {"id": "algorithms", "importance": 4},
+      {"id": "databases", "importance": 4},
+      {"id": "python", "importance": 3},
+      {"id": "mobile_dev", "importance": 2},
+      {"id": "communication", "importance": 3}
+    ],
+    "education": {"minLevel": "bachelors", "preferredStreams": ["computer_science", "engineering", "pcm"]},
+    "workStyle": {"sector": ["private", "startup"], "setting": ["remote", "hybrid", "onsite"], "focus": ["systems"], "structure": "mixed", "pace": "fast"},
+    "roadmap": [
+      {
+        "id": "foundations",
+        "title": "Programming foundations",
+        "timeframe": "First focus",
+        "summary": "Become fluent in one language and the habits that keep code readable.",
+        "milestones": ["Write small programs without copying a full solution.", "Explain what a function, a list, and a bug are in plain words."],
+        "skills": ["programming", "python"],
+        "learning": [
+          {"type": "Self-study", "title": "One language, practised daily", "detail": "Pick Python or JavaScript and solve small problems: parsing text, storing records, and handling bad input."},
+          {"type": "Course", "title": "Introductory programming", "detail": "A first university course or an NPTEL programming course is enough. Finish the assignments."},
+          {"type": "Project", "title": "A command-line tool", "detail": "Build something you will actually rerun, such as a expense splitter or a file renamer, with a short README."}
+        ]
+      },
+      {
+        "id": "applied",
+        "title": "Build for a user",
+        "timeframe": "Next",
+        "summary": "Move from exercises to a small application with a page, stored data, and a few edge cases.",
+        "milestones": ["Ship a tiny web app that creates, lists, and deletes records.", "Describe the data model in a sketch before coding it."],
+        "skills": ["web_development", "databases", "algorithms"],
+        "learning": [
+          {"type": "Course", "title": "Web and databases", "detail": "Learn HTTP, HTML, a bit of CSS, and how a relational table stores rows. SQL selects, filters, and joins are the core."},
+          {"type": "Project", "title": "A small full-stack app", "detail": "One feature set only: for example a reading list. Include an empty state and one validation message."},
+          {"type": "Self-study", "title": "Read other people's code", "detail": "Pick a well-known open-source project and trace one request from the button to the data store. Write down what you did not understand."}
+        ]
+      },
+      {
+        "id": "proof",
+        "title": "Evidence you can work with others",
+        "timeframe": "Then",
+        "summary": "Show that you can explain trade-offs, not only that the demo runs on your machine.",
+        "milestones": ["A repository with setup steps another person can follow.", "A short note on one bug you found and how you fixed it."],
+        "skills": ["communication", "programming", "mobile_dev"],
+        "learning": [
+          {"type": "Project", "title": "Harden one project", "detail": "Add tests for the risky parts, a clear README, and a list of what you would not claim the app can do."},
+          {"type": "Self-study", "title": "Version control and review", "detail": "Use Git with small commits. Practise writing a pull-request note that says what changed and how to try it."},
+          {"type": "Certification", "title": "Optional, after the project", "detail": "A cloud or language certificate can structure revision. It does not replace a program someone else can run."}
+        ]
+      }
+    ],
+    "related": ["cloud-devops", "ml-engineer", "ui-ux-designer"]
+  },
+  {
+    "id": "data-scientist",
+    "title": "Data Scientist",
+    "category": "Data and AI",
+    "tagline": "Frame a question, then test it with statistics and code.",
+    "summary": "Data scientists prepare messy data and use statistics or machine learning to answer a specific question. The useful part is often knowing what the result does not prove.",
+    "interests": ["data", "technology", "research"],
+    "skills": [
+      {"id": "python", "importance": 5},
+      {"id": "machine_learning", "importance": 5},
+      {"id": "statistics", "importance": 5},
+      {"id": "sql", "importance": 4},
+      {"id": "data_visualization", "importance": 3},
+      {"id": "communication", "importance": 3}
+    ],
+    "education": {"minLevel": "bachelors", "preferredStreams": ["computer_science", "engineering", "pcm"]},
+    "workStyle": {"sector": ["private", "startup", "research"], "setting": ["remote", "hybrid", "onsite"], "focus": ["data"], "structure": "mixed", "pace": "mixed"},
+    "roadmap": [
+      {
+        "id": "foundations",
+        "title": "Tables, uncertainty, and SQL",
+        "timeframe": "First focus",
+        "summary": "Learn to look at a table carefully before reaching for a model.",
+        "milestones": ["Explain mean, variance, and a confidence interval without a formula sheet.", "Write a SQL query that joins two tables and aggregates."],
+        "skills": ["python", "statistics", "sql"],
+        "learning": [
+          {"type": "Self-study", "title": "Python for tables", "detail": "Load a CSV, fix types and missing values, and compute grouped summaries in a notebook."},
+          {"type": "Course", "title": "Introductory statistics", "detail": "Cover distributions, sampling, hypothesis tests, and linear regression. NPTEL and many university electives do this."},
+          {"type": "Project", "title": "A one-dataset memo", "detail": "Publish a short note: the question, what you cleaned, two charts, and one limitation."}
+        ]
+      },
+      {
+        "id": "applied",
+        "title": "A model you can explain",
+        "timeframe": "Next",
+        "summary": "Train a simple model and compare it with a baseline that a sceptic would accept.",
+        "milestones": ["Report accuracy against a naive baseline, not only a single score.", "Name one way the result could be leaking the answer."],
+        "skills": ["machine_learning", "statistics", "data_visualization"],
+        "learning": [
+          {"type": "Course", "title": "Supervised learning", "detail": "Train and test splits, linear models, tree models, and error analysis. Stop when you can explain a wrong prediction."},
+          {"type": "Project", "title": "Baseline versus model", "detail": "On a public tabular dataset, compare a simple rule with one model. Write which errors matter."},
+          {"type": "Self-study", "title": "Charts that state a finding", "detail": "Retitle a chart so the sentence is the result, not the chart type. Remove decoration that does not help."}
+        ]
+      },
+      {
+        "id": "proof",
+        "title": "A study someone else can rerun",
+        "timeframe": "Then",
+        "summary": "Package the work so a reader can follow the claim and the doubt.",
+        "milestones": ["A repository with data steps, a notebook or script, and a one-page summary.", "A paragraph on what you would not decide from this result."],
+        "skills": ["communication", "machine_learning", "python"],
+        "learning": [
+          {"type": "Project", "title": "End-to-end mini study", "detail": "From a raw file to a documented conclusion, with the environment pinned well enough to rerun."},
+          {"type": "Certification", "title": "Optional data credential", "detail": "A general analytics or data certificate can organise revision. Treat it as structure, not proof of judgement."},
+          {"type": "Self-study", "title": "Read a methods section", "detail": "Pick a public technical report and list the sample, the metric, and one thing the authors did not claim."}
+        ]
+      }
+    ],
+    "related": ["ml-engineer", "data-analyst", "academic-researcher"]
+  },
+  {
+    "id": "data-analyst",
+    "title": "Data Analyst",
+    "category": "Data and AI",
+    "tagline": "Answer operational questions with clean tables and clear charts.",
+    "summary": "Data analysts pull data, check it, and explain what changed. The work is usually closer to decisions this week than to building new algorithms.",
+    "interests": ["data", "business", "technology"],
+    "skills": [
+      {"id": "sql", "importance": 5},
+      {"id": "excel_analysis", "importance": 4},
+      {"id": "data_visualization", "importance": 4},
+      {"id": "statistics", "importance": 4},
+      {"id": "python", "importance": 3},
+      {"id": "communication", "importance": 4}
+    ],
+    "education": {"minLevel": "bachelors", "preferredStreams": ["commerce", "computer_science", "engineering", "management", "pcm"]},
+    "workStyle": {"sector": ["private", "startup", "public"], "setting": ["hybrid", "onsite", "remote"], "focus": ["data"], "structure": "structured", "pace": "steady"},
+    "roadmap": [
+      {
+        "id": "foundations",
+        "title": "Spreadsheets and questions",
+        "timeframe": "First focus",
+        "summary": "Get fast at tables, and practise writing the question before the chart.",
+        "milestones": ["Build a spreadsheet with a lookup, a pivot, and a check that totals still match.", "Write three analysis questions that a chart could answer."],
+        "skills": ["excel_analysis", "statistics"],
+        "learning": [
+          {"type": "Self-study", "title": "Spreadsheet fluency", "detail": "Practise filters, pivot tables, and simple checks for duplicates and blank keys."},
+          {"type": "Course", "title": "Descriptive statistics", "detail": "Averages, spread, percentages, and why a mean can mislead. A first statistics module is enough to start."},
+          {"type": "Project", "title": "A before-and-after brief", "detail": "Take a public table and write one page: what changed, for whom, and what you cannot see."}
+        ]
+      },
+      {
+        "id": "applied",
+        "title": "SQL and a repeatable report",
+        "timeframe": "Next",
+        "summary": "Move the same questions into a database so the steps can be rerun.",
+        "milestones": ["Join, filter, and aggregate without a saved template.", "A chart whose title is a sentence."],
+        "skills": ["sql", "data_visualization", "python"],
+        "learning": [
+          {"type": "Course", "title": "SQL for analysis", "detail": "Select, where, group by, and joins. Use a sample database and write the queries yourself."},
+          {"type": "Project", "title": "A three-chart report", "detail": "Answer one business-style question with three charts and a note on data quality."},
+          {"type": "Self-study", "title": "A little Python", "detail": "Use Python only where the spreadsheet becomes painful: cleaning a messy export, or repeating a step."}
+        ]
+      },
+      {
+        "id": "proof",
+        "title": "Explain the number",
+        "timeframe": "Then",
+        "summary": "Analysts are hired to make a number usable, not only to produce it.",
+        "milestones": ["A readout a non-analyst can follow in five minutes.", "A list of checks you run before sharing a figure."],
+        "skills": ["communication", "sql", "data_visualization"],
+        "learning": [
+          {"type": "Project", "title": "Stakeholder memo", "detail": "Write the recommendation, the evidence, and the caveat in that order. Put the query in an appendix."},
+          {"type": "Self-study", "title": "Definition drift", "detail": "Pick one metric, such as an active user, and write two plausible definitions that would disagree."},
+          {"type": "Certification", "title": "Optional analytics certificate", "detail": "Use it to fill gaps in SQL or visualisation. Keep the memo as the thing you show."}
+        ]
+      }
+    ],
+    "related": ["data-scientist", "business-analyst", "financial-analyst"]
+  },
+  {
+    "id": "ml-engineer",
+    "title": "Machine Learning Engineer",
+    "category": "Data and AI",
+    "tagline": "Turn a working model into software that can be run again.",
+    "summary": "Machine learning engineers sit between modelling and production software. They care about data pipelines, evaluation, and what happens when the input drifts.",
+    "interests": ["technology", "data", "research"],
+    "skills": [
+      {"id": "python", "importance": 5},
+      {"id": "machine_learning", "importance": 5},
+      {"id": "programming", "importance": 4},
+      {"id": "algorithms", "importance": 4},
+      {"id": "statistics", "importance": 4},
+      {"id": "cloud", "importance": 3}
+    ],
+    "education": {"minLevel": "bachelors", "preferredStreams": ["computer_science", "engineering", "pcm"]},
+    "workStyle": {"sector": ["private", "startup", "research"], "setting": ["hybrid", "remote"], "focus": ["systems"], "structure": "mixed", "pace": "fast"},
+    "roadmap": [
+      {
+        "id": "foundations",
+        "title": "Software and statistics together",
+        "timeframe": "First focus",
+        "summary": "You need to write maintainable Python and to know what an evaluation number means.",
+        "milestones": ["A tested Python module, not only a notebook.", "A written definition of the metric you would optimise and why."],
+        "skills": ["python", "programming", "statistics"],
+        "learning": [
+          {"type": "Self-study", "title": "Python as software", "detail": "Functions, modules, and a test for one data-cleaning step. Avoid a single 2,000-line notebook."},
+          {"type": "Course", "title": "Core machine learning", "detail": "Supervised learning, train and test splits, and overfitting. Be able to say what the model saw."},
+          {"type": "Project", "title": "Train, evaluate, write", "detail": "One tabular model with a baseline, a metric, and a short failure analysis."}
+        ]
+      },
+      {
+        "id": "applied",
+        "title": "Make the run repeatable",
+        "timeframe": "Next",
+        "summary": "Separate data preparation, training, and a small way to ask the model a question.",
+        "milestones": ["A script that trains from a fresh checkout.", "A note on what input would make the prediction meaningless."],
+        "skills": ["machine_learning", "algorithms", "cloud"],
+        "learning": [
+          {"type": "Project", "title": "A small prediction service", "detail": "Wrap a saved model behind a local API or a command. Document the input fields."},
+          {"type": "Course", "title": "Data pipelines at a small scale", "detail": "Learn how a scheduled job, a file, and a model artifact fit together. A cloud intro is enough; do not collect every service."},
+          {"type": "Self-study", "title": "Evaluation beyond one score", "detail": "Slice errors by a group that matters in your dataset and write whether the average hid a problem."}
+        ]
+      },
+      {
+        "id": "proof",
+        "title": "Show judgement, not only a demo",
+        "timeframe": "Then",
+        "summary": "Employers look for people who can say when not to ship a model.",
+        "milestones": ["A README that states the metric, the baseline, and the known failure.", "A rollback or fallback described in one paragraph."],
+        "skills": ["programming", "machine_learning", "cloud"],
+        "learning": [
+          {"type": "Project", "title": "Monitoring sketch", "detail": "List three things you would log if this model ran weekly, and what change would make you stop it."},
+          {"type": "Certification", "title": "Optional cloud associate credential", "detail": "Useful only after you can already explain your project. It is a vocabulary aid, not the portfolio."},
+          {"type": "Self-study", "title": "Read a model card", "detail": "Study one public model card and note intended use, out-of-scope use, and evaluation data."}
+        ]
+      }
+    ],
+    "related": ["data-scientist", "software-engineer", "cloud-devops"]
+  },
+  {
+    "id": "iot-engineer",
+    "title": "IoT Engineer",
+    "category": "Core Engineering",
+    "tagline": "Connect sensors, devices, and software into one system.",
+    "summary": "IoT engineers work where hardware meets networks. A typical problem is reading a sensor reliably and getting that reading somewhere it can be used.",
+    "interests": ["hardware", "technology", "making"],
+    "skills": [
+      {"id": "embedded", "importance": 5},
+      {"id": "sensors", "importance": 5},
+      {"id": "python", "importance": 4},
+      {"id": "networking", "importance": 4},
+      {"id": "programming", "importance": 4},
+      {"id": "circuit_design", "importance": 3}
+    ],
+    "education": {"minLevel": "bachelors", "preferredStreams": ["engineering", "pcm", "computer_science"]},
+    "workStyle": {"sector": ["private", "startup", "research"], "setting": ["onsite", "hybrid", "field"], "focus": ["systems"], "structure": "mixed", "pace": "mixed"},
+    "roadmap": [
+      {
+        "id": "foundations",
+        "title": "A device that measures one thing",
+        "timeframe": "First focus",
+        "summary": "Start with a microcontroller, one sensor, and code you can explain.",
+        "milestones": ["Read a sensor on a board and print a stable value.", "Draw the wiring and say what each pin does."],
+        "skills": ["embedded", "sensors", "circuit_design"],
+        "learning": [
+          {"type": "Self-study", "title": "Microcontroller basics", "detail": "Digital and analog reads, power, and ground. Use a common board and one documented sensor."},
+          {"type": "Course", "title": "Introductory electronics", "detail": "Voltage, current, and reading a simple datasheet. An engineering elective or NPTEL module fits."},
+          {"type": "Project", "title": "Temperature or motion logger", "detail": "Log readings to a file with a timestamp. Note what happens when the wire is loose."}
+        ]
+      },
+      {
+        "id": "applied",
+        "title": "Move the reading off the desk",
+        "timeframe": "Next",
+        "summary": "Send data over a network and store it so you can look at a history.",
+        "milestones": ["A device publishes readings and a script stores them.", "You can describe what fails if the network drops."],
+        "skills": ["networking", "python", "programming"],
+        "learning": [
+          {"type": "Course", "title": "Networking basics", "detail": "IP addresses, local networks, and the difference between a device being powered and being reachable."},
+          {"type": "Project", "title": "Sensor to dashboard", "detail": "Show the last hour of readings. Include a gap when the device was unplugged, not a fake smooth line."},
+          {"type": "Self-study", "title": "Python on the receiving side", "detail": "Parse the messages, reject impossible values, and write a test for that rejection."}
+        ]
+      },
+      {
+        "id": "proof",
+        "title": "A system write-up",
+        "timeframe": "Then",
+        "summary": "Document the device, the data, and the limits as if a teammate had to maintain it.",
+        "milestones": ["A diagram of device, network, and store.", "A list of safety or reliability limits, such as what the sensor cannot measure."],
+        "skills": ["embedded", "networking", "python"],
+        "learning": [
+          {"type": "Project", "title": "Field note", "detail": "Run the device somewhere other than your desk for a day. Write what the environment did to the readings."},
+          {"type": "Self-study", "title": "Power and failure", "detail": "Estimate how the device is powered and what you would check first if it went silent."},
+          {"type": "Certification", "title": "Optional networking credential", "detail": "A entry-level networking certificate helps with vocabulary. The working device is still the evidence."}
+        ]
+      }
+    ],
+    "related": ["biomedical-engineer", "mechanical-engineer", "software-engineer"]
+  },
+  {
+    "id": "environmental-analyst",
+    "title": "Environmental Analyst",
+    "category": "Environment",
+    "tagline": "Use environmental data to describe a place and its pressures.",
+    "summary": "Environmental analysts work with measurements such as air, water, or land data, plus the context that makes a number meaningful. The role mixes science, data handling, and clear writing.",
+    "interests": ["environment", "data", "research"],
+    "skills": [
+      {"id": "aqi_analysis", "importance": 5},
+      {"id": "environmental_science", "importance": 4},
+      {"id": "gis", "importance": 4},
+      {"id": "python", "importance": 4},
+      {"id": "research", "importance": 4},
+      {"id": "scientific_writing", "importance": 3}
+    ],
+    "education": {"minLevel": "bachelors", "preferredStreams": ["engineering", "pcm", "pcb"]},
+    "workStyle": {"sector": ["public", "research", "nonprofit", "private"], "setting": ["field", "hybrid", "onsite"], "focus": ["data"], "structure": "mixed", "pace": "steady"},
+    "roadmap": [
+      {
+        "id": "foundations",
+        "title": "The science behind the measurement",
+        "timeframe": "First focus",
+        "summary": "Learn what an environmental indicator is trying to represent, and how it can mislead.",
+        "milestones": ["Explain one air or water indicator in plain language.", "List two reasons a sensor reading might not match what people feel."],
+        "skills": ["environmental_science", "aqi_analysis", "research"],
+        "learning": [
+          {"type": "Course", "title": "Environmental science foundation", "detail": "A bachelor's module on environmental systems, pollution, or ecology. Focus on units and definitions."},
+          {"type": "Self-study", "title": "Read a public monitoring note", "detail": "Find a government or municipal environmental report and rewrite one chart's point in two sentences."},
+          {"type": "Project", "title": "Indicator glossary", "detail": "Make a one-page glossary for three indicators: what they measure, the unit, and one limit."}
+        ]
+      },
+      {
+        "id": "applied",
+        "title": "Work with a real table and a map",
+        "timeframe": "Next",
+        "summary": "Analyse a public environmental dataset and place the result on a simple map.",
+        "milestones": ["Clean a time series and state how many gaps it had.", "A map or spatial summary that matches the table."],
+        "skills": ["python", "gis", "aqi_analysis"],
+        "learning": [
+          {"type": "Self-study", "title": "Python for environmental tables", "detail": "Time stamps, missing hours, and resampling. Do not fill gaps silently."},
+          {"type": "Course", "title": "Introductory GIS", "detail": "Points, layers, and a choropleth or dot map. A short GIS elective or open course is enough to start."},
+          {"type": "Project", "title": "One city, one pollutant", "detail": "Describe a season of public readings: the pattern, the gaps, and what you will not infer about health."}
+        ]
+      },
+      {
+        "id": "proof",
+        "title": "A careful brief",
+        "timeframe": "Then",
+        "summary": "Write as if a non-specialist had to use your note without over-reading it.",
+        "milestones": ["A two-page brief with method, result, and limits.", "Sources named well enough that someone else can find the data."],
+        "skills": ["scientific_writing", "research", "gis"],
+        "learning": [
+          {"type": "Project", "title": "Brief with a methods box", "detail": "Separate what was measured from what you think it means. Include the data's publisher and date range."},
+          {"type": "Self-study", "title": "Compare two sources", "detail": "If two public series disagree, write the likely reasons instead of averaging them away."},
+          {"type": "Degree", "title": "Further study, if you want a specialist track", "detail": "A master's in environmental science or a related field is a common route into research posts. It is not required to start learning the analysis."}
+        ]
+      }
+    ],
+    "related": ["environmental-engineer", "data-analyst", "public-health"]
+  },
+  {
+    "id": "environmental-engineer",
+    "title": "Environmental Engineer",
+    "category": "Environment",
+    "tagline": "Design practical responses to pollution, waste, and water problems.",
+    "summary": "Environmental engineers apply engineering to water, waste, air, and site problems. The work often mixes field constraints, drawings, and coordination with other disciplines.",
+    "interests": ["environment", "making", "research"],
+    "skills": [
+      {"id": "environmental_science", "importance": 5},
+      {"id": "project_management", "importance": 4},
+      {"id": "research", "importance": 4},
+      {"id": "cad_design", "importance": 3},
+      {"id": "gis", "importance": 3},
+      {"id": "communication", "importance": 3}
+    ],
+    "education": {"minLevel": "bachelors", "preferredStreams": ["engineering", "pcm"]},
+    "workStyle": {"sector": ["private", "public", "nonprofit"], "setting": ["field", "onsite", "hybrid"], "focus": ["systems"], "structure": "structured", "pace": "steady"},
+    "roadmap": [
+      {
+        "id": "foundations",
+        "title": "Engineering core for environmental work",
+        "timeframe": "First focus",
+        "summary": "Build the science and the drawing habits the rest of the path sits on.",
+        "milestones": ["Explain a treatment or control idea in steps, not slogans.", "Read a simple site plan without inventing details that are not drawn."],
+        "skills": ["environmental_science", "cad_design"],
+        "learning": [
+          {"type": "Degree", "title": "An engineering bachelor's is the common entry", "detail": "Environmental, civil, or chemical engineering are frequent backgrounds. If you already have the degree, use this phase for the gaps."},
+          {"type": "Course", "title": "Water, waste, or air module", "detail": "Take one applied module and keep the problem sets. Units and assumptions matter more than memorised diagrams."},
+          {"type": "Self-study", "title": "Drawing literacy", "detail": "Practise reading and redrawing a simple plan. CAD can start with one 2D drawing done carefully."}
+        ]
+      },
+      {
+        "id": "applied",
+        "title": "A site-shaped project",
+        "timeframe": "Next",
+        "summary": "Work a small design problem that has a constraint, not only a formula.",
+        "milestones": ["A short design note with assumptions listed.", "A map or layout that matches the note."],
+        "skills": ["gis", "research", "project_management"],
+        "learning": [
+          {"type": "Project", "title": "Campus or neighbourhood problem", "detail": "Pick a real constraint, such as stormwater on a campus, and outline options with what you do not know."},
+          {"type": "Course", "title": "GIS for engineers", "detail": "Enough spatial skill to place the problem. You do not need to become a full-time GIS specialist first."},
+          {"type": "Self-study", "title": "Read a standard's scope", "detail": "Find one relevant code or standard and write what it covers. Do not treat a blog summary as the standard."}
+        ]
+      },
+      {
+        "id": "proof",
+        "title": "Coordinate and explain",
+        "timeframe": "Then",
+        "summary": "Engineers spend a lot of time making a design understandable to people who will build or approve it.",
+        "milestones": ["A one-page option comparison.", "A risk or unknown called out in writing."],
+        "skills": ["communication", "project_management", "environmental_science"],
+        "learning": [
+          {"type": "Project", "title": "Option memo", "detail": "Two approaches, the assumption each needs, and which question you would ask on site before choosing."},
+          {"type": "Self-study", "title": "Field notes", "detail": "Visit a treatment plant, landfill, or restoration site if you can, and write what the drawing did not show."},
+          {"type": "Certification", "title": "Safety or software credentials later", "detail": "Site safety cards and CAD fluency help on the job. Confirm what a specific employer asks for rather than collecting badges first."}
+        ]
+      }
+    ],
+    "related": ["environmental-analyst", "civil-engineer", "iot-engineer"]
+  },
+  {
+    "id": "cybersecurity-analyst",
+    "title": "Cybersecurity Analyst",
+    "category": "Software and IT",
+    "tagline": "Watch systems, investigate alerts, and reduce obvious paths of misuse.",
+    "summary": "Cybersecurity analysts help organisations notice and respond to suspicious activity. Entry work is often monitoring, ticketing, and learning how networks and identities are supposed to behave.",
+    "interests": ["technology", "public_service", "data"],
+    "skills": [
+      {"id": "cybersecurity", "importance": 5},
+      {"id": "networking", "importance": 5},
+      {"id": "programming", "importance": 4},
+      {"id": "cloud", "importance": 3},
+      {"id": "reasoning", "importance": 3},
+      {"id": "communication", "importance": 3}
+    ],
+    "education": {"minLevel": "bachelors", "preferredStreams": ["computer_science", "engineering", "pcm"]},
+    "workStyle": {"sector": ["private", "public", "startup"], "setting": ["hybrid", "onsite", "remote"], "focus": ["systems"], "structure": "structured", "pace": "fast"},
+    "roadmap": [
+      {
+        "id": "foundations",
+        "title": "Networks and how accounts work",
+        "timeframe": "First focus",
+        "summary": "Security work is hard to follow if IP addresses, DNS, and logins are still fuzzy.",
+        "milestones": ["Draw a small network and name each hop.", "Explain authentication versus authorisation with an example."],
+        "skills": ["networking", "cybersecurity", "reasoning"],
+        "learning": [
+          {"type": "Course", "title": "Networking fundamentals", "detail": "TCP/IP, DNS, and common ports. An introductory networking course is the right depth to start."},
+          {"type": "Self-study", "title": "Security principles", "detail": "Learn confidentiality, integrity, availability, and least privilege as ideas you can apply to a story, not as a word list."},
+          {"type": "Project", "title": "Read a log", "detail": "Collect ordinary logs from a machine you own and write what a normal day looks like. Stay on systems you are allowed to access."}
+        ]
+      },
+      {
+        "id": "applied",
+        "title": "A small defensive lab",
+        "timeframe": "Next",
+        "summary": "Practise detection and hardening on machines you control.",
+        "milestones": ["A written hardening checklist you actually applied.", "One alert you investigated from symptom to likely cause."],
+        "skills": ["programming", "cybersecurity", "cloud"],
+        "learning": [
+          {"type": "Project", "title": "Home lab notes", "detail": "On your own machines, enable logging, create a low-privilege account, and record what changed. Do not test on networks you do not own."},
+          {"type": "Course", "title": "Defensive operations intro", "detail": "Look for a course on security monitoring, identities, and incident notes. Skip material that centres on breaking into systems."},
+          {"type": "Self-study", "title": "Script a check", "detail": "Use Python or a shell script to flag something simple and allowed, such as unexpected open ports on your own host."}
+        ]
+      },
+      {
+        "id": "proof",
+        "title": "Write the incident clearly",
+        "timeframe": "Then",
+        "summary": "Analysts are useful when other people can act on their notes.",
+        "milestones": ["A sample incident write-up with timeline, impact, and next step.", "A glossary you could hand to a non-specialist."],
+        "skills": ["communication", "cybersecurity", "networking"],
+        "learning": [
+          {"type": "Project", "title": "Practice incident report", "detail": "Use a fictional or public post-incident summary and rewrite it: what happened, what is known, what is not."},
+          {"type": "Certification", "title": "An entry defensive certificate", "detail": "Credentials such as CompTIA Security+ are a common way to structure the basics. Confirm the current exam objectives on the vendor's site."},
+          {"type": "Self-study", "title": "Policies, not just tools", "detail": "Read a public security policy and note which behaviour it expects from people, not only from software."}
+        ]
+      }
+    ],
+    "related": ["cloud-devops", "software-engineer", "data-analyst"]
+  },
+  {
+    "id": "cloud-devops",
+    "title": "Cloud and DevOps Engineer",
+    "category": "Software and IT",
+    "tagline": "Keep software deployable, observable, and recoverable.",
+    "summary": "Cloud and DevOps engineers build the path from a code change to a running system. The work includes automation, environments, and the question of how you would undo a bad release.",
+    "interests": ["technology", "making", "business"],
+    "skills": [
+      {"id": "cloud", "importance": 5},
+      {"id": "networking", "importance": 4},
+      {"id": "programming", "importance": 4},
+      {"id": "databases", "importance": 3},
+      {"id": "cybersecurity", "importance": 3},
+      {"id": "python", "importance": 3}
+    ],
+    "education": {"minLevel": "bachelors", "preferredStreams": ["computer_science", "engineering", "pcm"]},
+    "workStyle": {"sector": ["private", "startup"], "setting": ["remote", "hybrid"], "focus": ["systems"], "structure": "mixed", "pace": "fast"},
+    "roadmap": [
+      {
+        "id": "foundations",
+        "title": "A system you can rebuild",
+        "timeframe": "First focus",
+        "summary": "Learn operating-system basics and how to describe a machine as steps, not clicks you forgot.",
+        "milestones": ["A script that sets up a small app the same way twice.", "You can say where the process logs and what a non-zero exit means."],
+        "skills": ["programming", "python", "networking"],
+        "learning": [
+          {"type": "Self-study", "title": "Command line and Git", "detail": "Files, processes, environment variables, and a branch you can merge without panic."},
+          {"type": "Course", "title": "Networking for builders", "detail": "DNS, HTTP, ports, and what a firewall is deciding. Enough to debug 'it works on my machine'."},
+          {"type": "Project", "title": "Repeatable local setup", "detail": "Document exact commands to run one web app. A second machine, or a fresh folder, should match."}
+        ]
+      },
+      {
+        "id": "applied",
+        "title": "One cloud path, end to end",
+        "timeframe": "Next",
+        "summary": "Deploy a small service, watch it, and roll it back.",
+        "milestones": ["A deployment you can redo from the README.", "A health check and one metric you would actually look at."],
+        "skills": ["cloud", "databases", "cybersecurity"],
+        "learning": [
+          {"type": "Course", "title": "One cloud provider's basics", "detail": "Compute, storage, identity, and cost awareness. Use the provider's own free tier notes and watch what you leave running."},
+          {"type": "Project", "title": "Deploy and roll back", "detail": "Ship a tiny app, change it, and restore the previous version. Write the steps."},
+          {"type": "Self-study", "title": "Least privilege", "detail": "Create a key or role that can do only what the app needs. Record what you refused to grant."}
+        ]
+      },
+      {
+        "id": "proof",
+        "title": "Operate, don't only launch",
+        "timeframe": "Then",
+        "summary": "Show that you think about failure and cost, not only the happy path.",
+        "milestones": ["A short runbook: symptom, check, rollback.", "A note on what this setup would not survive."],
+        "skills": ["cloud", "networking", "communication"],
+        "learning": [
+          {"type": "Project", "title": "Runbook", "detail": "Three failure cases for your project, each with the first command you would run."},
+          {"type": "Certification", "title": "Optional cloud practitioner exam", "detail": "AWS Cloud Practitioner and similar exams cover shared vocabulary. Take one only after the deploy project exists."},
+          {"type": "Self-study", "title": "Read a public postmortem", "detail": "Summarise what broke, how they knew, and what they changed. Ignore the drama."}
+        ]
+      }
+    ],
+    "related": ["software-engineer", "cybersecurity-analyst", "ml-engineer"]
+  },
+  {
+    "id": "ui-ux-designer",
+    "title": "UI/UX Designer",
+    "category": "Design",
+    "tagline": "Shape how a product behaves, and learn from the people using it.",
+    "summary": "UI/UX designers research a task, sketch the flow, and specify the interface. The work is evidence and trade-offs, not only a polished screen.",
+    "interests": ["design", "technology", "communication"],
+    "skills": [
+      {"id": "user_research", "importance": 5},
+      {"id": "prototyping", "importance": 5},
+      {"id": "visual_design", "importance": 4},
+      {"id": "communication", "importance": 4},
+      {"id": "product_thinking", "importance": 3},
+      {"id": "web_development", "importance": 2}
+    ],
+    "education": {"minLevel": "diploma", "preferredStreams": ["design", "computer_science", "humanities", "engineering"]},
+    "workStyle": {"sector": ["private", "startup"], "setting": ["remote", "hybrid", "onsite"], "focus": ["creative"], "structure": "flexible", "pace": "mixed"},
+    "roadmap": [
+      {
+        "id": "foundations",
+        "title": "See the task, not the decoration",
+        "timeframe": "First focus",
+        "summary": "Learn to describe a user's goal and the steps they take before you open a visual tool.",
+        "milestones": ["A task flow of an existing app, written as steps.", "Three questions you would ask a user that are not 'do you like it?'."],
+        "skills": ["user_research", "product_thinking"],
+        "learning": [
+          {"type": "Self-study", "title": "Teardown of one everyday flow", "detail": "Pick a public transport, banking, or college portal and write where someone could get stuck."},
+          {"type": "Course", "title": "Intro to interaction design", "detail": "A design diploma module or a structured UX course. Focus on flows and feedback, not on a tool certificate."},
+          {"type": "Project", "title": "Interview notes", "detail": "Talk to two people about a task they already do. Write quotes and surprises, separately from your ideas."}
+        ]
+      },
+      {
+        "id": "applied",
+        "title": "Prototype and test a change",
+        "timeframe": "Next",
+        "summary": "Make a clickable flow and watch someone use it without helping them.",
+        "milestones": ["A prototype of one task, including the error state.", "Notes from a test with at least one person who is not you."],
+        "skills": ["prototyping", "visual_design", "communication"],
+        "learning": [
+          {"type": "Self-study", "title": "One design tool", "detail": "Learn constraints, type, and components in a single tool. Rebuild an existing screen before inventing a new product."},
+          {"type": "Project", "title": "Redesign a narrow flow", "detail": "Change one painful step. Show before, after, and what the test contradicted."},
+          {"type": "Course", "title": "Visual basics", "detail": "Hierarchy, spacing, and contrast. Check text contrast rather than trusting a palette screenshot."}
+        ]
+      },
+      {
+        "id": "proof",
+        "title": "A case study with the messy middle",
+        "timeframe": "Then",
+        "summary": "Portfolio readers want the decision, the constraint, and what you discarded.",
+        "milestones": ["One case study a recruiter can read in a few minutes.", "A sentence on a trade-off you accepted."],
+        "skills": ["communication", "user_research", "web_development"],
+        "learning": [
+          {"type": "Project", "title": "Case study", "detail": "Problem, evidence, options, the flow you shipped in the prototype, and what you did not solve."},
+          {"type": "Self-study", "title": "HTML literacy", "detail": "Learn enough HTML and CSS to know when a design cannot be built as drawn. You do not have to become an engineer."},
+          {"type": "Certification", "title": "Optional, after the case study", "detail": "A tool badge adds little next to a tested prototype. Put the case study first."}
+        ]
+      }
+    ],
+    "related": ["graphic-designer", "product-manager", "software-engineer"]
+  },
+  {
+    "id": "graphic-designer",
+    "title": "Graphic Designer",
+    "category": "Design",
+    "tagline": "Give information a visual form people can use.",
+    "summary": "Graphic designers work on identity, layouts, and campaigns across print and screens. The craft is hierarchy, type, and a reason for every element.",
+    "interests": ["design", "communication", "business"],
+    "skills": [
+      {"id": "graphic_design", "importance": 5},
+      {"id": "visual_design", "importance": 5},
+      {"id": "prototyping", "importance": 3},
+      {"id": "marketing", "importance": 3},
+      {"id": "communication", "importance": 3},
+      {"id": "writing", "importance": 2}
+    ],
+    "education": {"minLevel": "diploma", "preferredStreams": ["design", "humanities", "commerce"]},
+    "workStyle": {"sector": ["private", "startup", "nonprofit"], "setting": ["hybrid", "remote", "onsite"], "focus": ["creative"], "structure": "flexible", "pace": "mixed"},
+    "roadmap": [
+      {
+        "id": "foundations",
+        "title": "Type, grid, and contrast",
+        "timeframe": "First focus",
+        "summary": "Train the eye before collecting software tricks.",
+        "milestones": ["Recreate a simple poster layout with a grid you can explain.", "A palette that keeps text readable."],
+        "skills": ["graphic_design", "visual_design"],
+        "learning": [
+          {"type": "Course", "title": "Visual design foundation", "detail": "A design diploma module or a structured course on typography and layout. Do the exercises on paper as well as on screen."},
+          {"type": "Self-study", "title": "Copy, then depart", "detail": "Redraw three public posters or covers to learn their structure, then design a fourth with your own content."},
+          {"type": "Project", "title": "A one-page information sheet", "detail": "Set real text, not lorem ipsum. Make the heading, the fact, and the action obvious."}
+        ]
+      },
+      {
+        "id": "applied",
+        "title": "A small identity, used in three places",
+        "timeframe": "Next",
+        "summary": "Design a mark and show it working, not floating alone.",
+        "milestones": ["A logo and two applications, such as a poster and a social card.", "A short note on the audience."],
+        "skills": ["prototyping", "marketing", "writing"],
+        "learning": [
+          {"type": "Project", "title": "Identity for a real brief", "detail": "Use a college club, a family shop, or a fictional brief with a constraint. Show the mark at small size."},
+          {"type": "Self-study", "title": "Production files", "detail": "Learn export settings for screen and print: size, colour mode, and readable type at the final size."},
+          {"type": "Course", "title": "Tool fluency", "detail": "One layout tool, used until shortcuts are boring. The tool is not the portfolio."}
+        ]
+      },
+      {
+        "id": "proof",
+        "title": "A portfolio of decisions",
+        "timeframe": "Then",
+        "summary": "Show a few finished pieces and the constraint each one had.",
+        "milestones": ["Four to six pieces, each with a one-paragraph rationale.", "At least one piece with real copy and a real format."],
+        "skills": ["communication", "graphic_design", "visual_design"],
+        "learning": [
+          {"type": "Project", "title": "Portfolio page", "detail": "Lead with the work. Write the audience, the format, and one thing you rejected."},
+          {"type": "Self-study", "title": "Critique practice", "detail": "Swap work with a peer and ask what they read first. Change one piece based on that, and say so."},
+          {"type": "Certification", "title": "Skip badge collecting", "detail": "Software certificates rarely carry a design portfolio. Spend the time on another finished piece."}
+        ]
+      }
+    ],
+    "related": ["ui-ux-designer", "content-strategist", "digital-marketer"]
+  },
+  {
+    "id": "product-manager",
+    "title": "Product Manager",
+    "category": "Business and Finance",
+    "tagline": "Decide what to build next, and why that problem is worth it.",
+    "summary": "Product managers frame problems, align design and engineering, and make trade-offs explicit. The role is communication and judgement more than a specific degree title.",
+    "interests": ["business", "technology", "communication"],
+    "skills": [
+      {"id": "product_thinking", "importance": 5},
+      {"id": "communication", "importance": 5},
+      {"id": "stakeholder_management", "importance": 4},
+      {"id": "project_management", "importance": 4},
+      {"id": "user_research", "importance": 3},
+      {"id": "data_visualization", "importance": 2}
+    ],
+    "education": {"minLevel": "bachelors", "preferredStreams": ["management", "engineering", "computer_science", "commerce"]},
+    "workStyle": {"sector": ["private", "startup"], "setting": ["hybrid", "onsite", "remote"], "focus": ["people"], "structure": "mixed", "pace": "fast"},
+    "roadmap": [
+      {
+        "id": "foundations",
+        "title": "Problems before features",
+        "timeframe": "First focus",
+        "summary": "Practise writing a problem statement that does not sneak in your favourite solution.",
+        "milestones": ["A one-page problem note: who, pain, and evidence.", "A list of what you would not build yet."],
+        "skills": ["product_thinking", "user_research"],
+        "learning": [
+          {"type": "Self-study", "title": "Teardown a product you use", "detail": "Write the job it does, the step that fails, and a metric that would show improvement. Avoid a feature wishlist."},
+          {"type": "Course", "title": "Product basics", "detail": "A management or online module on discovery and prioritisation. Do the writing exercises."},
+          {"type": "Project", "title": "Five user conversations", "detail": "Talk to people about a task. Separate what they do from what they say they want."}
+        ]
+      },
+      {
+        "id": "applied",
+        "title": "A thin spec someone could build",
+        "timeframe": "Next",
+        "summary": "Turn the problem into a small slice with success and failure defined.",
+        "milestones": ["A spec with scope, out of scope, and an edge case.", "A simple success measure."],
+        "skills": ["communication", "project_management", "data_visualization"],
+        "learning": [
+          {"type": "Project", "title": "One-sprint spec", "detail": "Write something a classmate could prototype in a week. Include the empty and error states."},
+          {"type": "Self-study", "title": "Lightweight metrics", "detail": "Define a count you could collect without a data team. Sketch it as one chart."},
+          {"type": "Course", "title": "Working with engineers and designers", "detail": "Learn enough of their vocabulary to ask a precise question. You are not trying to replace either role."}
+        ]
+      },
+      {
+        "id": "proof",
+        "title": "Show a decision, including a no",
+        "timeframe": "Then",
+        "summary": "A product sample is a decision record, not a slide full of buzzwords.",
+        "milestones": ["A case note with options and the one you picked.", "A stakeholder message that states the trade-off."],
+        "skills": ["stakeholder_management", "communication", "product_thinking"],
+        "learning": [
+          {"type": "Project", "title": "Decision memo", "detail": "Two options, the constraint, what you chose, and what evidence would change your mind."},
+          {"type": "Self-study", "title": "Write a status note", "detail": "Practise a weekly update: done, next, blocked. Keep it short enough to be read."},
+          {"type": "Certification", "title": "Optional, after the memo", "detail": "A product certificate can offer vocabulary. The memo is what demonstrates judgement."}
+        ]
+      }
+    ],
+    "related": ["business-analyst", "ui-ux-designer", "software-engineer"]
+  },
+  {
+    "id": "business-analyst",
+    "title": "Business Analyst",
+    "category": "Business and Finance",
+    "tagline": "Translate between a business question and the detail of a process.",
+    "summary": "Business analysts document how work happens, where it breaks, and what a change needs to include. They write requirements people can test.",
+    "interests": ["business", "data", "communication"],
+    "skills": [
+      {"id": "stakeholder_management", "importance": 5},
+      {"id": "communication", "importance": 5},
+      {"id": "excel_analysis", "importance": 4},
+      {"id": "sql", "importance": 3},
+      {"id": "data_visualization", "importance": 3},
+      {"id": "product_thinking", "importance": 3}
+    ],
+    "education": {"minLevel": "bachelors", "preferredStreams": ["commerce", "management", "engineering", "computer_science"]},
+    "workStyle": {"sector": ["private", "public", "startup"], "setting": ["hybrid", "onsite"], "focus": ["data"], "structure": "structured", "pace": "steady"},
+    "roadmap": [
+      {
+        "id": "foundations",
+        "title": "Map a process you know",
+        "timeframe": "First focus",
+        "summary": "Learn to draw a process and to notice the exceptions people forget to mention.",
+        "milestones": ["A process map with a start, an end, and one exception.", "Five questions that would change the map if answered differently."],
+        "skills": ["communication", "product_thinking"],
+        "learning": [
+          {"type": "Self-study", "title": "Process mapping", "detail": "Map something familiar, such as college admissions paperwork or a shop refund. Mark where people use side channels."},
+          {"type": "Course", "title": "Requirements writing", "detail": "A business-analysis module on user stories or requirement statements. Practise testable wording."},
+          {"type": "Project", "title": "Interview and redraw", "detail": "Ask one person who does the process to correct your map. Show the revision."}
+        ]
+      },
+      {
+        "id": "applied",
+        "title": "Attach numbers to the friction",
+        "timeframe": "Next",
+        "summary": "Use a spreadsheet or SQL to show how often the pain happens.",
+        "milestones": ["A table that counts the cases, not only a story.", "A chart with the definition of the count written beside it."],
+        "skills": ["excel_analysis", "sql", "data_visualization"],
+        "learning": [
+          {"type": "Self-study", "title": "Spreadsheet analysis", "detail": "Clean an export, define a status column, and pivot it. Keep a tab of assumptions."},
+          {"type": "Course", "title": "SQL basics", "detail": "Enough to ask a database for counts and joins. You can stay an analyst rather than a database engineer."},
+          {"type": "Project", "title": "Current-state brief", "detail": "One process, the volume, the delay, and what you could not measure."}
+        ]
+      },
+      {
+        "id": "proof",
+        "title": "Requirements someone can accept or reject",
+        "timeframe": "Then",
+        "summary": "Write a change as testable statements and a list of what is out of scope.",
+        "milestones": ["A requirement list with acceptance checks.", "A stakeholder question log."],
+        "skills": ["stakeholder_management", "communication", "excel_analysis"],
+        "learning": [
+          {"type": "Project", "title": "Mini BRD", "detail": "A short business-requirements note: problem, scope, requirements, and open questions."},
+          {"type": "Self-study", "title": "Meeting notes that decide", "detail": "Practise writing decisions and owners, not a transcript."},
+          {"type": "Certification", "title": "Optional analysis credential", "detail": "Entry certificates exist. They help less than a requirement note a classmate can review."}
+        ]
+      }
+    ],
+    "related": ["product-manager", "data-analyst", "financial-analyst"]
+  },
+  {
+    "id": "financial-analyst",
+    "title": "Financial Analyst",
+    "category": "Business and Finance",
+    "tagline": "Read the numbers of a business and say what they do and do not show.",
+    "summary": "Financial analysts build and check models of performance, budgets, or investments. The discipline is in the assumptions and the reconciliation, not in a busy spreadsheet.",
+    "interests": ["finance", "data", "business"],
+    "skills": [
+      {"id": "financial_analysis", "importance": 5},
+      {"id": "excel_analysis", "importance": 5},
+      {"id": "accounting", "importance": 4},
+      {"id": "quantitative_aptitude", "importance": 4},
+      {"id": "statistics", "importance": 3},
+      {"id": "communication", "importance": 4}
+    ],
+    "education": {"minLevel": "bachelors", "preferredStreams": ["commerce", "management"]},
+    "workStyle": {"sector": ["private", "public", "startup"], "setting": ["onsite", "hybrid"], "focus": ["data"], "structure": "structured", "pace": "fast"},
+    "roadmap": [
+      {
+        "id": "foundations",
+        "title": "Accounting that ties out",
+        "timeframe": "First focus",
+        "summary": "Learn the statements and how a change in one number moves another.",
+        "milestones": ["Read a simple income statement and balance sheet.", "A spreadsheet where the totals reconcile and the assumptions sit on their own rows."],
+        "skills": ["accounting", "excel_analysis", "quantitative_aptitude"],
+        "learning": [
+          {"type": "Course", "title": "Financial accounting", "detail": "A commerce module on the three statements. Do problems by hand before hiding them in a template."},
+          {"type": "Self-study", "title": "Spreadsheet discipline", "detail": "Colour inputs, separate calculations, and avoid hardcoded totals. Build a small three-statement sketch."},
+          {"type": "Project", "title": "Annotate a public annual report", "detail": "Pick a listed company's report and write what the main totals say. Quote the page, and do not invent a valuation."}
+        ]
+      },
+      {
+        "id": "applied",
+        "title": "A model with visible assumptions",
+        "timeframe": "Next",
+        "summary": "Forecast a simple case and show which assumption the result depends on.",
+        "milestones": ["A one-way sensitivity table.", "A written caveat next to the output."],
+        "skills": ["financial_analysis", "statistics", "communication"],
+        "learning": [
+          {"type": "Project", "title": "Budget or projection", "detail": "Model a student event or a small shop. Change one assumption and show the effect."},
+          {"type": "Course", "title": "Corporate finance intro", "detail": "Time value of money and the idea of a cash flow. Stop before you pretend a classroom model is an investment recommendation."},
+          {"type": "Self-study", "title": "Ratio literacy", "detail": "Compute a few ratios from the public report and say what each cannot tell you."}
+        ]
+      },
+      {
+        "id": "proof",
+        "title": "A memo a manager could use",
+        "timeframe": "Then",
+        "summary": "Lead with the decision the numbers inform, and the uncertainty.",
+        "milestones": ["A one-page memo plus the model.", "Every hard-coded input labelled."],
+        "skills": ["communication", "financial_analysis", "excel_analysis"],
+        "learning": [
+          {"type": "Project", "title": "Decision memo", "detail": "State the question, the base case, the sensitivity, and what you did not model."},
+          {"type": "Self-study", "title": "Check another's model", "detail": "Review a classmate's sheet for a broken reference or a hidden assumption. Write the review kindly and specifically."},
+          {"type": "Certification", "title": "Further finance credentials are separate paths", "detail": "CFA and CA are real, heavy programmes with their own rules. Do not start one just to decorate an internship application. See the Chartered Accountant path in this catalog if that is the goal."}
+        ]
+      }
+    ],
+    "related": ["chartered-accountant", "banking-officer", "data-analyst"]
+  },
+  {
+    "id": "digital-marketer",
+    "title": "Digital Marketing Specialist",
+    "category": "Business and Finance",
+    "tagline": "Plan messages, place them, and read whether anyone acted.",
+    "summary": "Digital marketers work across content, campaigns, and simple measurement. The useful skill is tying a piece of communication to a defined audience and a result you can count.",
+    "interests": ["communication", "business", "design"],
+    "skills": [
+      {"id": "marketing", "importance": 5},
+      {"id": "writing", "importance": 4},
+      {"id": "communication", "importance": 4},
+      {"id": "data_visualization", "importance": 3},
+      {"id": "excel_analysis", "importance": 3},
+      {"id": "graphic_design", "importance": 2}
+    ],
+    "education": {"minLevel": "diploma", "preferredStreams": ["commerce", "management", "humanities", "design"]},
+    "workStyle": {"sector": ["private", "startup", "nonprofit"], "setting": ["hybrid", "remote", "onsite"], "focus": ["creative"], "structure": "flexible", "pace": "fast"},
+    "roadmap": [
+      {
+        "id": "foundations",
+        "title": "Audience and message",
+        "timeframe": "First focus",
+        "summary": "Learn to say who a message is for and what they should do next.",
+        "milestones": ["A one-sentence audience description that is not 'everyone'.", "Three pieces of copy with a single ask."],
+        "skills": ["marketing", "writing", "communication"],
+        "learning": [
+          {"type": "Self-study", "title": "Message teardown", "detail": "Collect five public ads or posts and write the audience, the offer, and the action each one wants."},
+          {"type": "Course", "title": "Marketing fundamentals", "detail": "A commerce module on segmentation and channels. Ignore growth hacks that skip the audience."},
+          {"type": "Project", "title": "Rewrite a campus announcement", "detail": "Take a dull notice and make a version with a clear reader and a clear next step."}
+        ]
+      },
+      {
+        "id": "applied",
+        "title": "A small campaign with a count",
+        "timeframe": "Next",
+        "summary": "Run something modest and record what you can actually measure.",
+        "milestones": ["A plan: channel, message, duration, and the number you will look at.", "A result note that includes what did not move."],
+        "skills": ["excel_analysis", "data_visualization", "graphic_design"],
+        "learning": [
+          {"type": "Project", "title": "Club or shop campaign", "detail": "One week, one channel you are allowed to use, one metric such as replies or visits. Do not buy fake reach."},
+          {"type": "Self-study", "title": "A simple sheet", "detail": "Record the posts and the counts. A bar chart is enough if the definition is written down."},
+          {"type": "Course", "title": "Basic layout", "detail": "Enough visual skill to make a readable card. Pair with a designer when the work needs an identity."}
+        ]
+      },
+      {
+        "id": "proof",
+        "title": "A campaign write-up",
+        "timeframe": "Then",
+        "summary": "Show the plan, the artifact, and the honest result.",
+        "milestones": ["A portfolio page with the creative and the numbers side by side.", "A sentence on what you would change."],
+        "skills": ["communication", "marketing", "writing"],
+        "learning": [
+          {"type": "Project", "title": "Case page", "detail": "Audience, constraint, what you published, what the count was, and what you will not claim."},
+          {"type": "Self-study", "title": "Read a platform's own definitions", "detail": "Metrics are named differently across tools. Quote the definition you used."},
+          {"type": "Certification", "title": "Optional platform certificate", "detail": "Search and ads platforms offer free learning. Take one that matches the channel you already practised."}
+        ]
+      }
+    ],
+    "related": ["content-strategist", "graphic-designer", "business-analyst"]
+  },
+  {
+    "id": "content-strategist",
+    "title": "Content Strategist",
+    "category": "Communication",
+    "tagline": "Decide what an organisation should say, to whom, and in what form.",
+    "summary": "Content strategists plan and edit writing so a body of pages or posts has a purpose. The work is structure, voice, and evidence about the reader.",
+    "interests": ["communication", "design", "business"],
+    "skills": [
+      {"id": "writing", "importance": 5},
+      {"id": "communication", "importance": 5},
+      {"id": "marketing", "importance": 3},
+      {"id": "user_research", "importance": 3},
+      {"id": "project_management", "importance": 3},
+      {"id": "visual_design", "importance": 2}
+    ],
+    "education": {"minLevel": "diploma", "preferredStreams": ["any"]},
+    "workStyle": {"sector": ["private", "startup", "nonprofit"], "setting": ["remote", "hybrid"], "focus": ["creative"], "structure": "flexible", "pace": "mixed"},
+    "roadmap": [
+      {
+        "id": "foundations",
+        "title": "Editing as a skill",
+        "timeframe": "First focus",
+        "summary": "Learn to cut a text until the point is obvious, without sanding off the meaning.",
+        "milestones": ["Before-and-after of a 400-word piece you shortened.", "A style note: who speaks, and which words you will avoid."],
+        "skills": ["writing", "communication"],
+        "learning": [
+          {"type": "Self-study", "title": "Daily edit", "detail": "Rewrite public notices, help text, or your own essays. Keep the original beside the revision."},
+          {"type": "Course", "title": "Writing or journalism module", "detail": "A humanities course that makes you file on a deadline. The deadline is part of the practice."},
+          {"type": "Project", "title": "A style sheet", "detail": "One page: audience, tone, headings, and three examples of a sentence you would reject."}
+        ]
+      },
+      {
+        "id": "applied",
+        "title": "A content plan for a real reader",
+        "timeframe": "Next",
+        "summary": "Decide a set of pieces, not one isolated post.",
+        "milestones": ["A map of five pieces and the question each answers.", "One piece published or shared with the audience."],
+        "skills": ["user_research", "marketing", "project_management"],
+        "learning": [
+          {"type": "Project", "title": "Mini content system", "detail": "For a club, lab, or local group, list the questions newcomers ask and assign each to a page or post."},
+          {"type": "Self-study", "title": "Talk to the readers", "detail": "Ask three people what they came to find. Adjust the map when their words differ from yours."},
+          {"type": "Course", "title": "Information structure", "detail": "Learn headings, navigation labels, and how a page scans. A UX writing chapter is enough."}
+        ]
+      },
+      {
+        "id": "proof",
+        "title": "Show the system, not only the prose",
+        "timeframe": "Then",
+        "summary": "A strategist portfolio includes the plan and the edit, not a dump of articles.",
+        "milestones": ["A case page with the reader, the map, and one edited text.", "A maintenance note: who updates this, and when it expires."],
+        "skills": ["writing", "visual_design", "communication"],
+        "learning": [
+          {"type": "Project", "title": "Case study", "detail": "Include a cut you are proud of and a piece that did not land, with what you learned."},
+          {"type": "Self-study", "title": "Light layout", "detail": "Learn enough visual hierarchy to brief a designer, or to set a simple page yourself."},
+          {"type": "Self-study", "title": "Source hygiene", "detail": "If a piece states a fact, link the source. Drop claims you cannot support."}
+        ]
+      }
+    ],
+    "related": ["digital-marketer", "graphic-designer", "ui-ux-designer"]
+  },
+  {
+    "id": "civil-services",
+    "title": "Civil Services Officer (UPSC CSE)",
+    "category": "Government and Public Service",
+    "tagline": "A national exam path into senior civil services.",
+    "summary": "The Civil Services Examination, conducted by the Union Public Service Commission, is the selection path for services such as the IAS, IPS, and IFS, among others. It is a long exam sequence, not a single aptitude test.",
+    "interests": ["public_service", "communication", "research"],
+    "skills": [
+      {"id": "general_studies", "importance": 5},
+      {"id": "public_policy", "importance": 5},
+      {"id": "writing", "importance": 5},
+      {"id": "communication", "importance": 4},
+      {"id": "reasoning", "importance": 3},
+      {"id": "quantitative_aptitude", "importance": 3}
+    ],
+    "education": {"minLevel": "bachelors", "preferredStreams": ["any"]},
+    "workStyle": {"sector": ["public"], "setting": ["field", "onsite"], "focus": ["people"], "structure": "structured", "pace": "steady"},
+    "note": "A degree from a recognised university is the usual minimum. Age limits, number of attempts, optional subjects, and the syllabus are set in the current UPSC notification. Coaching-centre cut-offs are not official rules.",
+    "references": [
+      {"label": "Union Public Service Commission", "url": "https://www.upsc.gov.in/"}
+    ],
+    "roadmap": [
+      {
+        "id": "foundations",
+        "title": "Read the notification before the books",
+        "timeframe": "First focus",
+        "summary": "Understand the stages, the papers, and whether you currently meet the eligibility rules.",
+        "milestones": ["You can name Prelims, Mains, and the interview without mixing up their purpose.", "A checklist of eligibility items taken from the official notice, with your own status beside each."],
+        "skills": ["public_policy", "general_studies"],
+        "learning": [
+          {"type": "Self-study", "title": "The official notice", "detail": "Download the latest examination notice from the UPSC website. Highlight eligibility, stages, and the syllabus outline. Ignore social-media summaries when they disagree with it."},
+          {"type": "Course", "title": "A base in polity and modern history", "detail": "Use standard textbooks and a newspaper habit. A formal course is optional. The point is a map of institutions, not a stack of test series on day one."},
+          {"type": "Project", "title": "Syllabus map", "detail": "Turn the syllabus into a personal table: topic, source you will use, and a weekly slot. Leave empty rows rather than pretending you have covered them."}
+        ]
+      },
+      {
+        "id": "applied",
+        "title": "Build answers, not only notes",
+        "timeframe": "Next",
+        "summary": "Prelims needs range and accuracy. Mains needs structured writing. Practise both in the form the exam uses.",
+        "milestones": ["Timed multiple-choice practice with a review of why the wrong options were wrong.", "Ten handwritten or typed answers you revised after a gap."],
+        "skills": ["writing", "reasoning", "quantitative_aptitude"],
+        "learning": [
+          {"type": "Self-study", "title": "Prelims practice", "detail": "Use previous official papers where UPSC has published them. Review every error. Do not treat a coaching mock as if it were the real paper."},
+          {"type": "Project", "title": "Mains answer file", "detail": "Write answers to syllabus prompts in a fixed time. Lead with the point, then the reason, then an example you can source."},
+          {"type": "Course", "title": "Optional subject", "detail": "Choose an optional you can study for years, often close to your degree. Confirm it is still on the current scheme before you buy material."}
+        ]
+      },
+      {
+        "id": "proof",
+        "title": "A sustainable cycle",
+        "timeframe": "Then",
+        "summary": "The exam rewards a revision system you can repeat. The interview, if you reach it, rewards a considered view, not a script.",
+        "milestones": ["A revision calendar you have already used for a month.", "A page of positions you can explain on common policy topics, with the limit of your knowledge marked."],
+        "skills": ["communication", "general_studies", "public_policy"],
+        "learning": [
+          {"type": "Self-study", "title": "Current affairs with a source", "detail": "One newspaper and one official source, such as a government report, beat five unsourced digests. File notes by syllabus topic."},
+          {"type": "Project", "title": "Mock interview, only after Mains practice exists", "detail": "Practise explaining your degree and your home region. Do not memorise a personality."},
+          {"type": "Self-study", "title": "Administrative reality", "detail": "Read a public account of district work, such as a government report or a service memoir, so the job is not only the exam."}
+        ]
+      }
+    ],
+    "related": ["ssc-cgl", "public-health", "banking-officer"]
+  },
+  {
+    "id": "ssc-cgl",
+    "title": "SSC CGL Officer",
+    "category": "Government and Public Service",
+    "tagline": "A graduate-level exam for a range of central government posts.",
+    "summary": "The Staff Selection Commission’s Combined Graduate Level examination recruits for various Group B and Group C posts. The post, the pay level, and the eligibility depend on that year’s notice.",
+    "interests": ["public_service", "data", "communication"],
+    "skills": [
+      {"id": "quantitative_aptitude", "importance": 5},
+      {"id": "reasoning", "importance": 4},
+      {"id": "general_studies", "importance": 4},
+      {"id": "administration", "importance": 4},
+      {"id": "communication", "importance": 3},
+      {"id": "excel_analysis", "importance": 2}
+    ],
+    "education": {"minLevel": "bachelors", "preferredStreams": ["any"]},
+    "workStyle": {"sector": ["public"], "setting": ["onsite"], "focus": ["people"], "structure": "structured", "pace": "steady"},
+    "note": "Graduation is the usual academic minimum. Posts differ. Age, nationality, and any post-specific requirement are in the current SSC notification, which overrides this page.",
+    "references": [
+      {"label": "Staff Selection Commission", "url": "https://ssc.gov.in/"}
+    ],
+    "roadmap": [
+      {
+        "id": "foundations",
+        "title": "Pick the notice, then the papers",
+        "timeframe": "First focus",
+        "summary": "CGL is a family of posts. Start from the official advertisement so you know which tiers and which subjects apply.",
+        "milestones": ["A saved copy of the current notice and a list of posts you are eligible for.", "A weekly plan for quantitative aptitude, reasoning, English, and general awareness."],
+        "skills": ["administration", "general_studies"],
+        "learning": [
+          {"type": "Self-study", "title": "Official advertisement", "detail": "Read the SSC notice for posts, pattern, and dates. Patterns have changed before. Do not rely on last year's blog."},
+          {"type": "Course", "title": "School-level maths repair", "detail": "Arithmetic, algebra, and geometry as used in graduate-level aptitude papers. Relearn methods until they are fast and accurate."},
+          {"type": "Project", "title": "Error log", "detail": "A notebook of every practice error, grouped by topic. Review the log more often than you start a new book."}
+        ]
+      },
+      {
+        "id": "applied",
+        "title": "Timed papers",
+        "timeframe": "Next",
+        "summary": "Accuracy under a clock matters as much as knowing the chapter.",
+        "milestones": ["Full-length practice under the stated time.", "A stable score on topics you once avoided, based on your own log."],
+        "skills": ["quantitative_aptitude", "reasoning", "communication"],
+        "learning": [
+          {"type": "Self-study", "title": "Previous papers", "detail": "Use papers the Commission has published. Time them. Review English comprehension as carefully as maths."},
+          {"type": "Project", "title": "Section drills", "detail": "Rotate weak topics in short daily sets. Stop a drill when you are guessing."},
+          {"type": "Course", "title": "General awareness", "detail": "Static topics plus a habit of checking official current affairs, not a pile of unsorted PDFs."}
+        ]
+      },
+      {
+        "id": "proof",
+        "title": "Application discipline",
+        "timeframe": "Then",
+        "summary": "Many candidates lose a cycle to a form error or a missed document, not to the paper.",
+        "milestones": ["A document checklist taken from the notice.", "A revision week that is scheduled, not hoped for."],
+        "skills": ["administration", "general_studies", "reasoning"],
+        "learning": [
+          {"type": "Project", "title": "Form rehearsal", "detail": "Fill a practice copy of the application details before the portal opens: name as on the certificate, photos, and categories."},
+          {"type": "Self-study", "title": "Post research", "detail": "Read the official post descriptions so you know the work you are applying toward. Titles alone are a poor guide."},
+          {"type": "Self-study", "title": "After the tier", "detail": "When a tier result is out, use the official key or notice. Plan the next tier from that, not from rumours."}
+        ]
+      }
+    ],
+    "related": ["civil-services", "banking-officer", "public-health"]
+  },
+  {
+    "id": "banking-officer",
+    "title": "Public Sector Bank Officer",
+    "category": "Government and Public Service",
+    "tagline": "A probationary-officer path into public sector banking.",
+    "summary": "Public sector banks recruit probationary officers through exams such as IBPS PO, and the State Bank of India runs its own process. The common shape is a preliminary exam, a main exam, and an interview.",
+    "interests": ["finance", "public_service", "data"],
+    "skills": [
+      {"id": "quantitative_aptitude", "importance": 5},
+      {"id": "reasoning", "importance": 4},
+      {"id": "financial_analysis", "importance": 4},
+      {"id": "communication", "importance": 4},
+      {"id": "general_studies", "importance": 3},
+      {"id": "accounting", "importance": 3}
+    ],
+    "education": {"minLevel": "bachelors", "preferredStreams": ["any"]},
+    "workStyle": {"sector": ["public"], "setting": ["onsite", "field"], "focus": ["people"], "structure": "structured", "pace": "steady"},
+    "note": "A bachelor's degree is the usual minimum for PO recruitments. Age limits, language, and local language requirements vary by notification. IBPS covers participating banks. SBI recruits separately. Use the notice for the exam you intend to sit.",
+    "references": [
+      {"label": "Institute of Banking Personnel Selection", "url": "https://www.ibps.in/"}
+    ],
+    "roadmap": [
+      {
+        "id": "foundations",
+        "title": "The exam and the job",
+        "timeframe": "First focus",
+        "summary": "Learn the paper pattern from the official advertisement, and what a probationary officer actually does in a branch.",
+        "milestones": ["A pattern summary copied from the current notice, not from memory.", "A short note on branch work: customers, accounts, and procedures."],
+        "skills": ["financial_analysis", "general_studies"],
+        "learning": [
+          {"type": "Self-study", "title": "Current advertisement", "detail": "Read the IBPS or SBI notice for the cycle you care about. Pattern and eligibility are not permanent."},
+          {"type": "Course", "title": "Banking awareness from primary sources", "detail": "Learn basic products and the role of the Reserve Bank of India from official explainers and a textbook, not from forwarded quizzes alone."},
+          {"type": "Project", "title": "Quant and reasoning baseline", "detail": "Take one untimed paper, then one timed paper. Record the gap. That gap is your study plan."}
+        ]
+      },
+      {
+        "id": "applied",
+        "title": "Speed with review",
+        "timeframe": "Next",
+        "summary": "Prelims punishes slow methods. Mains adds data interpretation, English, and banking or general awareness.",
+        "milestones": ["A topic-wise accuracy log.", "English practice that includes writing, if the current mains still has a descriptive paper. Check the notice."],
+        "skills": ["quantitative_aptitude", "reasoning", "communication"],
+        "learning": [
+          {"type": "Self-study", "title": "Daily sets", "detail": "Short timed sets in arithmetic, reasoning puzzles, and reading comprehension. Review every miss the same day."},
+          {"type": "Project", "title": "Data interpretation set", "detail": "Practise tables and charts until you can state what the chart measures before you calculate."},
+          {"type": "Course", "title": "Accounting basics", "detail": "A light accounting module helps the banking sections and the job. You do not need the full CA course for this path."}
+        ]
+      },
+      {
+        "id": "proof",
+        "title": "Interview as a conversation",
+        "timeframe": "Then",
+        "summary": "If you clear the written stages, the interview checks clarity and honesty about your background.",
+        "milestones": ["A one-page personal brief: degree, city, and why banking.", "You can explain a recent official banking or economy headline in a few sentences, with the source."],
+        "skills": ["communication", "accounting", "general_studies"],
+        "learning": [
+          {"type": "Project", "title": "Mock interview", "detail": "Practise with a friend who will interrupt. Answer from your own life. Do not recite a coached script you cannot defend."},
+          {"type": "Self-study", "title": "Local language", "detail": "Some postings expect a local language. Confirm the notice and practise if it applies to you."},
+          {"type": "Self-study", "title": "Document file", "detail": "Keep degree, identity, and category documents as the advertisement lists them."}
+        ]
+      }
+    ],
+    "related": ["financial-analyst", "chartered-accountant", "ssc-cgl"]
+  },
+  {
+    "id": "public-health",
+    "title": "Public Health Specialist",
+    "category": "Healthcare",
+    "tagline": "Work on the health of communities, not only individual patients.",
+    "summary": "Public health specialists study patterns of illness and the programmes that try to prevent them. Roles sit in government, nonprofits, hospitals, and research groups, and many specialist posts expect a master's such as an MPH.",
+    "interests": ["healthcare", "public_service", "research"],
+    "skills": [
+      {"id": "public_health", "importance": 5},
+      {"id": "research", "importance": 4},
+      {"id": "biology", "importance": 4},
+      {"id": "communication", "importance": 4},
+      {"id": "data_visualization", "importance": 3},
+      {"id": "scientific_writing", "importance": 3}
+    ],
+    "education": {"minLevel": "bachelors", "preferredStreams": ["medicine", "pcb", "pcm"]},
+    "workStyle": {"sector": ["public", "nonprofit", "research"], "setting": ["field", "onsite", "hybrid"], "focus": ["people"], "structure": "structured", "pace": "steady"},
+    "note": "A bachelor's in a health or science field is a common start. Specialist and programme roles often ask for a master's in public health or a related subject. This page is not medical advice and not a description of a clinical licence.",
+    "roadmap": [
+      {
+        "id": "foundations",
+        "title": "Population thinking",
+        "timeframe": "First focus",
+        "summary": "Learn to talk about rates, risk, and programmes rather than a single case.",
+        "milestones": ["Explain incidence and prevalence in one example.", "Name a public health programme and the behaviour or exposure it targets."],
+        "skills": ["public_health", "biology", "research"],
+        "learning": [
+          {"type": "Course", "title": "Intro epidemiology or community medicine", "detail": "A module in a health, biology, or medical programme. Focus on study types and what they can show."},
+          {"type": "Self-study", "title": "Read a government health programme note", "detail": "Pick one national programme and write its stated aim in your own words, with the document named."},
+          {"type": "Project", "title": "A rate, carefully", "detail": "Using a published table, compute or interpret a simple rate and write the denominator in words."}
+        ]
+      },
+      {
+        "id": "applied",
+        "title": "Data and field context",
+        "timeframe": "Next",
+        "summary": "Pair a basic analysis with an understanding of how the data was collected.",
+        "milestones": ["A chart with the population and the time period in the title.", "A list of biases that could affect that chart."],
+        "skills": ["data_visualization", "scientific_writing", "communication"],
+        "learning": [
+          {"type": "Project", "title": "Programme brief", "detail": "Summarise one programme: who it is for, what it delivers, and one limit visible in a public report."},
+          {"type": "Course", "title": "Biostatistics intro", "detail": "Enough to read a table and a confidence interval. You can go deeper in a master's."},
+          {"type": "Self-study", "title": "Field observation", "detail": "If you can visit a clinic, camp, or NGO with permission, write what the paperwork path looked like. Do not collect people's health data for a portfolio."}
+        ]
+      },
+      {
+        "id": "proof",
+        "title": "Choose a next credential honestly",
+        "timeframe": "Then",
+        "summary": "Many specialist roles expect an MPH or similar. Treat that as a real decision, with a specific school’s eligibility, not a slogan.",
+        "milestones": ["A shortlist of programmes with their published eligibility.", "A writing sample that is not a slogan about wanting to help people."],
+        "skills": ["research", "communication", "public_health"],
+        "learning": [
+          {"type": "Degree", "title": "Master's where the role needs it", "detail": "Check each university's current MPH or community-health eligibility. A bachelor's may be enough for some field and coordination jobs."},
+          {"type": "Project", "title": "Writing sample", "detail": "A 1,000-word review of a public health report: question, method, finding, and what you would not conclude."},
+          {"type": "Self-study", "title": "Ethics", "detail": "Learn why casual surveys of patients are not a student project. Use published data or ask a supervisor before any fieldwork."}
+        ]
+      }
+    ],
+    "related": ["physician", "clinical-research", "civil-services"]
+  },
+  {
+    "id": "clinical-research",
+    "title": "Clinical Research Associate",
+    "category": "Healthcare",
+    "tagline": "Help clinical studies stay accurate, ethical, and documented.",
+    "summary": "Clinical research associates monitor or coordinate studies that test treatments or collect health data. The work is protocol, documentation, and the rights of participants.",
+    "interests": ["healthcare", "research", "data"],
+    "skills": [
+      {"id": "clinical_research", "importance": 5},
+      {"id": "biology", "importance": 5},
+      {"id": "scientific_writing", "importance": 4},
+      {"id": "research", "importance": 4},
+      {"id": "anatomy", "importance": 3},
+      {"id": "statistics", "importance": 3}
+    ],
+    "education": {"minLevel": "bachelors", "preferredStreams": ["medicine", "pcb"]},
+    "workStyle": {"sector": ["private", "research", "public"], "setting": ["onsite", "field", "hybrid"], "focus": ["data"], "structure": "structured", "pace": "steady"},
+    "note": "A life-sciences or health bachelor's is a common entry. This role supports studies. It is not a licence to treat patients or to run a trial on your own.",
+    "roadmap": [
+      {
+        "id": "foundations",
+        "title": "How a study is allowed to happen",
+        "timeframe": "First focus",
+        "summary": "Learn the difference between clinical care and a study, and why consent and a protocol exist.",
+        "milestones": ["Explain protocol, consent, and adverse event in plain language.", "You can say who an ethics committee is protecting."],
+        "skills": ["clinical_research", "biology", "anatomy"],
+        "learning": [
+          {"type": "Course", "title": "Clinical research basics", "detail": "A life-sciences module or a structured course on trial phases, protocols, and documentation. Use a textbook or a university course, not marketing pages."},
+          {"type": "Self-study", "title": "Read a public trial registry entry", "detail": "Look up one registered study and write its question, who could join, and the planned measure. Do not contact participants."},
+          {"type": "Project", "title": "Glossary", "detail": "Twenty terms, each in a sentence a new graduate could understand."}
+        ]
+      },
+      {
+        "id": "applied",
+        "title": "Documentation habits",
+        "timeframe": "Next",
+        "summary": "The job is often checking that what was done is what was written.",
+        "milestones": ["A mock monitoring note with queries, not accusations.", "A simple data-check list."],
+        "skills": ["scientific_writing", "research", "statistics"],
+        "learning": [
+          {"type": "Project", "title": "Mock source check", "detail": "Using a fictional case your lecturer provides, or a published example, list inconsistencies. Never use real patient files outside an authorised placement."},
+          {"type": "Course", "title": "Biostatistics for readers", "detail": "Enough to know what randomisation and a primary endpoint are trying to do."},
+          {"type": "Self-study", "title": "Good documentation", "detail": "Practise notes that are dated, factual, and free of jokes or guesses. Ambiguous notes are the defect."}
+        ]
+      },
+      {
+        "id": "proof",
+        "title": "A placement or a careful portfolio",
+        "timeframe": "Then",
+        "summary": "Employers expect familiarity with process. A fabricated monitoring story is worse than a small honest project.",
+        "milestones": ["A description of a lab, hospital, or course project you are allowed to mention.", "A certificate or course only if you finished the assessed work."],
+        "skills": ["clinical_research", "scientific_writing", "biology"],
+        "learning": [
+          {"type": "Project", "title": "Study summary", "detail": "Summarise a published paper's method in one page, including what it did not prove."},
+          {"type": "Certification", "title": "A research-ethics course", "detail": "Many universities offer a human-subjects ethics module. Finish one before any real data work."},
+          {"type": "Degree", "title": "Further study if you want a science lead", "detail": "A master's is a common step toward designing studies rather than monitoring them. Check the specific programme."}
+        ]
+      }
+    ],
+    "related": ["public-health", "biomedical-engineer", "academic-researcher"]
+  },
+  {
+    "id": "biomedical-engineer",
+    "title": "Biomedical Engineer",
+    "category": "Healthcare",
+    "tagline": "Apply engineering to devices and systems used in health.",
+    "summary": "Biomedical engineers work on instruments, sensors, and sometimes software used in care or research. The field sits between engineering discipline and enough biology to understand the constraint.",
+    "interests": ["healthcare", "technology", "making"],
+    "skills": [
+      {"id": "biology", "importance": 4},
+      {"id": "sensors", "importance": 4},
+      {"id": "circuit_design", "importance": 4},
+      {"id": "research", "importance": 4},
+      {"id": "programming", "importance": 3},
+      {"id": "cad_design", "importance": 3}
+    ],
+    "education": {"minLevel": "bachelors", "preferredStreams": ["engineering", "medicine", "pcm", "pcb"]},
+    "workStyle": {"sector": ["private", "research", "startup"], "setting": ["onsite", "hybrid"], "focus": ["systems"], "structure": "mixed", "pace": "mixed"},
+    "note": "A biomedical, electronics, or related engineering degree is a common entry. Designing a medical device for real use is regulated. Student projects are for learning, not for diagnosing anyone.",
+    "roadmap": [
+      {
+        "id": "foundations",
+        "title": "Biology plus a circuit",
+        "timeframe": "First focus",
+        "summary": "Build enough physiology to know what a sensor is trying to capture, and enough electronics to capture it safely on the bench.",
+        "milestones": ["Explain one physiological signal, such as heart rate, as a measurement problem.", "A bench circuit or microcontroller reading that does not touch a person."],
+        "skills": ["biology", "circuit_design", "sensors"],
+        "learning": [
+          {"type": "Course", "title": "Physiology for engineers", "detail": "A biomedical module or a carefully scoped anatomy and physiology course. Focus on signals and systems, not on treatment."},
+          {"type": "Self-study", "title": "Sensor lab", "detail": "Read a non-contact or bench sensor. Log the values. Do not connect experimental circuits to anyone's body."},
+          {"type": "Project", "title": "Measurement note", "detail": "What you measured, the unit, the noise, and why it is not a medical device."}
+        ]
+      },
+      {
+        "id": "applied",
+        "title": "A documented prototype",
+        "timeframe": "Next",
+        "summary": "Combine a sensor, code, and a drawing into something another student can inspect.",
+        "milestones": ["A block diagram and a photo of the build.", "Code that flags an impossible reading."],
+        "skills": ["programming", "cad_design", "research"],
+        "learning": [
+          {"type": "Project", "title": "Bench prototype", "detail": "For example a posture or temperature logger using a mannequin, a table, or a public dataset — not a patient."},
+          {"type": "Course", "title": "CAD and programming", "detail": "A simple enclosure drawing and a Python or embedded script. One of each is enough."},
+          {"type": "Self-study", "title": "Standards awareness", "detail": "Read, at a high level, that medical devices have regulatory pathways. You are learning the existence of the gate, not how to bypass it."}
+        ]
+      },
+      {
+        "id": "proof",
+        "title": "Write the limit beside the demo",
+        "timeframe": "Then",
+        "summary": "A credible portfolio piece says what the prototype is not allowed to do.",
+        "milestones": ["A report with method, result, and explicit non-use.", "A related paper summarised in half a page."],
+        "skills": ["research", "biology", "sensors"],
+        "learning": [
+          {"type": "Project", "title": "Design report", "detail": "Include safety constraints you respected, such as staying on the bench."},
+          {"type": "Self-study", "title": "Read a device description", "detail": "Study a public technical note for an approved device and list the claims it actually makes."},
+          {"type": "Degree", "title": "Master's for research-heavy roles", "detail": "Device research posts often expect a master's. Industry technician and quality roles sometimes hire from a bachelor's. Read the specific posting."}
+        ]
+      }
+    ],
+    "related": ["clinical-research", "iot-engineer", "mechanical-engineer"]
+  },
+  {
+    "id": "mechanical-engineer",
+    "title": "Mechanical Design Engineer",
+    "category": "Core Engineering",
+    "tagline": "Turn loads, motion, and materials into parts that can be made.",
+    "summary": "Mechanical design engineers model parts and machines, check whether they survive the expected loads, and work with the people who will manufacture them.",
+    "interests": ["making", "hardware", "technology"],
+    "skills": [
+      {"id": "cad_design", "importance": 5},
+      {"id": "thermodynamics", "importance": 5},
+      {"id": "project_management", "importance": 3},
+      {"id": "communication", "importance": 3},
+      {"id": "sensors", "importance": 2},
+      {"id": "programming", "importance": 2}
+    ],
+    "education": {"minLevel": "bachelors", "preferredStreams": ["engineering", "pcm"]},
+    "workStyle": {"sector": ["private", "public", "startup"], "setting": ["onsite", "field"], "focus": ["systems"], "structure": "structured", "pace": "steady"},
+    "roadmap": [
+      {
+        "id": "foundations",
+        "title": "Mechanics you can draw",
+        "timeframe": "First focus",
+        "summary": "Reconnect core mechanics with engineering drawing so a calculation has a shape.",
+        "milestones": ["A free-body sketch for a simple part.", "A CAD model of that part with dimensions a machinist could read."],
+        "skills": ["thermodynamics", "cad_design"],
+        "learning": [
+          {"type": "Course", "title": "Solid mechanics and thermo", "detail": "University core courses. Redo the problems you half-understood. Units are part of the answer."},
+          {"type": "Self-study", "title": "CAD practice", "detail": "Model three simple parts and one assembly. Learn drawings, not only pretty renders."},
+          {"type": "Project", "title": "Reverse a household mechanism", "detail": "A latch, a clamp, or a bicycle subsystem. Sketch how force travels. Do not design anything that is a weapon or a dangerous pressure vessel."}
+        ]
+      },
+      {
+        "id": "applied",
+        "title": "A design with a manufacturing note",
+        "timeframe": "Next",
+        "summary": "Choose a material and a way to make the part, and write the assumption.",
+        "milestones": ["A drawing set and a short calculation note.", "One change you made because the part would be hard to manufacture."],
+        "skills": ["project_management", "communication", "sensors"],
+        "learning": [
+          {"type": "Project", "title": "Small mechanism", "detail": "Design a bracket, a jig, or a hand tool for a real inconvenience. State the load you designed for."},
+          {"type": "Course", "title": "Manufacturing processes", "detail": "Know the difference between a shape you can model and a shape you can make."},
+          {"type": "Self-study", "title": "A sensor, if the design measures something", "detail": "Only if your project needs it. A simple logged measurement beats an unused electronics detour."}
+        ]
+      },
+      {
+        "id": "proof",
+        "title": "A design pack",
+        "timeframe": "Then",
+        "summary": "Collect drawings, calculations, and a photo or render into a pack another engineer can review.",
+        "milestones": ["The assumption and the load are on the first page.", "A peer found one error and you fixed it in the pack."],
+        "skills": ["cad_design", "thermodynamics", "programming"],
+        "learning": [
+          {"type": "Project", "title": "Design review", "detail": "Ask a senior student or teacher to mark the drawing. Include their comment and your change."},
+          {"type": "Self-study", "title": "A script for a repeated calculation", "detail": "Optional: a small Python or spreadsheet calculation with a test value you can do by hand."},
+          {"type": "Certification", "title": "CAD vendor certificates", "detail": "Useful when a posting names the software. The drawing pack still matters more."}
+        ]
+      }
+    ],
+    "related": ["civil-engineer", "iot-engineer", "biomedical-engineer"]
+  },
+  {
+    "id": "civil-engineer",
+    "title": "Civil Engineer",
+    "category": "Core Engineering",
+    "tagline": "Plan and check the structures and infrastructure people use.",
+    "summary": "Civil engineers work on buildings, roads, water, and related infrastructure. Early work is often drawings, quantities, site exposure, and learning to follow a code rather than a guess.",
+    "interests": ["making", "environment", "public_service"],
+    "skills": [
+      {"id": "structural_analysis", "importance": 5},
+      {"id": "cad_design", "importance": 4},
+      {"id": "project_management", "importance": 4},
+      {"id": "quantitative_aptitude", "importance": 3},
+      {"id": "environmental_science", "importance": 2},
+      {"id": "communication", "importance": 3}
+    ],
+    "education": {"minLevel": "bachelors", "preferredStreams": ["engineering", "pcm"]},
+    "workStyle": {"sector": ["private", "public"], "setting": ["field", "onsite"], "focus": ["systems"], "structure": "structured", "pace": "steady"},
+    "roadmap": [
+      {
+        "id": "foundations",
+        "title": "Statics, materials, and drawings",
+        "timeframe": "First focus",
+        "summary": "The degree core is the job. Use it until you can explain a load path.",
+        "milestones": ["A beam or truss problem you can redo cold.", "A drawing you can read aloud: member, dimension, and what is not specified."],
+        "skills": ["structural_analysis", "cad_design", "quantitative_aptitude"],
+        "learning": [
+          {"type": "Degree", "title": "Civil engineering core", "detail": "Strength of materials, structural analysis, and surveying or fluids depending on your branch papers. This path assumes that degree or an equivalent in progress."},
+          {"type": "Self-study", "title": "Redraw a detail", "detail": "Copy a published standard detail by hand or in CAD until the line weights and labels make sense."},
+          {"type": "Project", "title": "Load-path sketch", "detail": "For a simple building you are allowed to observe, sketch how load might travel to the ground. Label it as a learning sketch, not a certification."}
+        ]
+      },
+      {
+        "id": "applied",
+        "title": "Quantities and a site habit",
+        "timeframe": "Next",
+        "summary": "Learn to estimate and to notice the difference between the drawing and the site.",
+        "milestones": ["A quantity take-off for a small element, with the method shown.", "A site diary page from an authorised visit."],
+        "skills": ["project_management", "communication", "environmental_science"],
+        "learning": [
+          {"type": "Course", "title": "Estimation and contracts intro", "detail": "A college module on quantities and specifications. Keep a worked example."},
+          {"type": "Project", "title": "Small take-off", "detail": "Calculate concrete or brickwork for a simple element and state the waste assumption."},
+          {"type": "Self-study", "title": "Site visit", "detail": "With permission and safety gear as required, note one thing the drawing did not capture, such as access or drainage."}
+        ]
+      },
+      {
+        "id": "proof",
+        "title": "A reviewable calculation",
+        "timeframe": "Then",
+        "summary": "Your sample should be checkable by another engineer, with the code year and the assumption visible.",
+        "milestones": ["A calculation note with references you actually used.", "A sentence on what would require a licensed engineer before anyone built it."],
+        "skills": ["structural_analysis", "cad_design", "communication"],
+        "learning": [
+          {"type": "Project", "title": "Coursework pack", "detail": "Clean up one real assignment: drawing, calculation, and assumption. Remove anything you cannot defend."},
+          {"type": "Self-study", "title": "Code awareness", "detail": "Know which code your course used. Read its scope page. Do not cite a code you have not opened."},
+          {"type": "Certification", "title": "Licensure is a separate legal step", "detail": "Signing structural drawings is regulated. A student portfolio does not grant that. Follow your statutory body's current route if practice is the goal."}
+        ]
+      }
+    ],
+    "related": ["mechanical-engineer", "environmental-engineer", "ssc-cgl"]
+  },
+  {
+    "id": "academic-researcher",
+    "title": "Academic Researcher",
+    "category": "Education and Research",
+    "tagline": "Ask a narrow question and answer it in a way others can check.",
+    "summary": "Academic researchers design studies, read prior work, and publish or teach the result. A master's is a common entry to the track. Regular faculty posts usually expect more, including a doctorate and eligibility rules that change by institution.",
+    "interests": ["research", "teaching", "data"],
+    "skills": [
+      {"id": "research", "importance": 5},
+      {"id": "scientific_writing", "importance": 5},
+      {"id": "communication", "importance": 4},
+      {"id": "statistics", "importance": 3},
+      {"id": "teaching", "importance": 3},
+      {"id": "python", "importance": 2}
+    ],
+    "education": {"minLevel": "masters", "preferredStreams": ["any"]},
+    "workStyle": {"sector": ["research", "public"], "setting": ["onsite", "hybrid"], "focus": ["data", "people"], "structure": "mixed", "pace": "steady"},
+    "note": "Paths differ by field. In India, many regular faculty recruitments refer to UGC or AICTE norms and exams such as UGC NET. The current regulation and the university advertisement are the authority, not this summary.",
+    "references": [
+      {"label": "National Testing Agency", "url": "https://nta.ac.in/"}
+    ],
+    "roadmap": [
+      {
+        "id": "foundations",
+        "title": "Read like a researcher",
+        "timeframe": "First focus",
+        "summary": "Learn to summarise a paper's method and limit, not only its abstract's claim.",
+        "milestones": ["Ten paper notes with question, method, finding, and a doubt.", "A reference manager or a disciplined folder, used for real."],
+        "skills": ["research", "scientific_writing"],
+        "learning": [
+          {"type": "Self-study", "title": "Paper notes", "detail": "Use your degree's journals or open papers. Write the doubt in your own words. If you cannot state the method, you have not finished the note."},
+          {"type": "Course", "title": "Research methods in your field", "detail": "Take the methods course seriously. The design of evidence differs in history, biology, and computer science."},
+          {"type": "Project", "title": "Annotated bibliography", "detail": "Fifteen sources on one narrow question, grouped by how they disagree."}
+        ]
+      },
+      {
+        "id": "applied",
+        "title": "A small study with a supervisor",
+        "timeframe": "Next",
+        "summary": "Do a bounded project whose claim matches the evidence you actually have.",
+        "milestones": ["A proposal a supervisor has commented on.", "A result section that includes what failed."],
+        "skills": ["statistics", "python", "communication"],
+        "learning": [
+          {"type": "Degree", "title": "Master's thesis or equivalent project", "detail": "This is the usual place to learn the whole loop. Pick a question small enough to finish."},
+          {"type": "Self-study", "title": "The tool your field uses", "detail": "Statistics, a archive, a lab method, or code. Learn the one your question needs. Python is a means, not a requirement in every field."},
+          {"type": "Project", "title": "Reproducible packet", "detail": "Notes, data permissions, and steps another student in your group could follow. Do not share data you are not allowed to share."}
+        ]
+      },
+      {
+        "id": "proof",
+        "title": "Write, teach, and check the formal route",
+        "timeframe": "Then",
+        "summary": "A research track continues through publications and, for many teaching posts, a doctorate and an eligibility test.",
+        "milestones": ["A draft paper or thesis chapter in the format of your field.", "You have read the current eligibility notice for the post you think you want."],
+        "skills": ["teaching", "scientific_writing", "research"],
+        "learning": [
+          {"type": "Project", "title": "A talk", "detail": "Present the project in ten minutes to people outside your niche. Note every question you could not answer."},
+          {"type": "Degree", "title": "Doctoral study for a faculty goal", "detail": "Treat a PhD as training under a supervisor, not as a badge. Funding, eligibility, and duration are specific to the institution."},
+          {"type": "Self-study", "title": "Eligibility notices", "detail": "If you aim at a lectureship, read the current UGC NET or equivalent notice on the official testing site, and the hiring university's advertisement."}
+        ]
+      }
+    ],
+    "related": ["data-scientist", "stem-educator", "clinical-research"]
+  },
+  {
+    "id": "stem-educator",
+    "title": "STEM Educator",
+    "category": "Education and Research",
+    "tagline": "Help students learn science, maths, or computing.",
+    "summary": "STEM educators teach in schools, colleges, or informal programmes. School teaching in India often expects a teaching qualification and an eligibility test. College teaching is a different route.",
+    "interests": ["teaching", "technology", "communication"],
+    "skills": [
+      {"id": "teaching", "importance": 5},
+      {"id": "communication", "importance": 5},
+      {"id": "quantitative_aptitude", "importance": 3},
+      {"id": "programming", "importance": 3},
+      {"id": "writing", "importance": 3},
+      {"id": "python", "importance": 2}
+    ],
+    "education": {"minLevel": "bachelors", "preferredStreams": ["engineering", "computer_science", "pcm", "pcb"]},
+    "workStyle": {"sector": ["public", "nonprofit", "private"], "setting": ["onsite"], "focus": ["people"], "structure": "structured", "pace": "steady"},
+    "note": "For many school posts, boards expect a bachelor's in the subject plus a B.Ed. or equivalent, and often CTET or a state teacher eligibility test. College paths differ and may involve a master's and UGC NET or a similar rule. Confirm the post you want on the official notice.",
+    "references": [
+      {"label": "Central Teacher Eligibility Test", "url": "https://ctet.nic.in/"},
+      {"label": "National Testing Agency", "url": "https://nta.ac.in/"}
+    ],
+    "roadmap": [
+      {
+        "id": "foundations",
+        "title": "Know the subject one level deeper than the class",
+        "timeframe": "First focus",
+        "summary": "Teaching exposes gaps quickly. Rebuild the topic until you can derive or demonstrate it, not only recall it.",
+        "milestones": ["A topic map for one class level you might teach.", "You can solve or explain the exercises without the answer key."],
+        "skills": ["quantitative_aptitude", "programming", "python"],
+        "learning": [
+          {"type": "Self-study", "title": "Rebuild one syllabus", "detail": "Take a public board syllabus for one subject and year. Close the gaps in your own working, especially the chapters you disliked."},
+          {"type": "Course", "title": "Subject depth", "detail": "If computing is your subject, write small programs you could safely ask a class to modify. If maths or science, redo problems with the working visible."},
+          {"type": "Project", "title": "A worked example bank", "detail": "Ten fully worked examples with the common wrong turn written beside the right one."}
+        ]
+      },
+      {
+        "id": "applied",
+        "title": "Practise explaining",
+        "timeframe": "Next",
+        "summary": "A clear explanation is a designed thing. Test it on a real learner.",
+        "milestones": ["A 20-minute lesson plan with a check for understanding.", "Notes from teaching that plan to at least one person."],
+        "skills": ["teaching", "communication", "writing"],
+        "learning": [
+          {"type": "Project", "title": "Teach a session", "detail": "Tutor a junior, a classmate, or a community class you are allowed to join. Ask what was confusing. Revise the plan."},
+          {"type": "Course", "title": "Pedagogy introduction", "detail": "A B.Ed. is a formal route for many school jobs. If you are not enrolled, still read one chapter on assessment and try its idea."},
+          {"type": "Self-study", "title": "Questions, not monologues", "detail": "Write three questions that reveal a misconception. Use them in the session."}
+        ]
+      },
+      {
+        "id": "proof",
+        "title": "Match the formal route to the job",
+        "timeframe": "Then",
+        "summary": "Enthusiasm does not replace the eligibility rule for the institution you want.",
+        "milestones": ["The current CTET or state TET notice read, if you want school work.", "A lesson portfolio: plan, material, and what the learner struggled with."],
+        "skills": ["teaching", "writing", "communication"],
+        "learning": [
+          {"type": "Certification", "title": "Teacher eligibility, if the post requires it", "detail": "Read the current CTET or state TET information bulletin on the official site. Paper, language, and eligibility are defined there."},
+          {"type": "Degree", "title": "B.Ed. or a master's, depending on the institution", "detail": "School and college routes are not interchangeable. Choose from the advertisement of the employer, then the training."},
+          {"type": "Project", "title": "Portfolio", "detail": "Three lesson plans in your subject, with the board or course outcome they serve. Include one revision after you taught it."}
+        ]
+      }
+    ],
+    "related": ["academic-researcher", "software-engineer", "data-analyst"]
+  },
+  {
+    "id": "physician",
+    "title": "Physician (MBBS pathway)",
+    "category": "Healthcare",
+    "tagline": "Train as a medical doctor through the regulated MBBS route.",
+    "summary": "In India, the usual path to practise as a physician is MBBS, entered through NEET-UG, followed by internship and registration. Postgraduate specialisation is a later, separate exam and counselling process.",
+    "interests": ["healthcare", "research", "communication"],
+    "skills": [
+      {"id": "biology", "importance": 5},
+      {"id": "anatomy", "importance": 5},
+      {"id": "communication", "importance": 4},
+      {"id": "public_health", "importance": 3},
+      {"id": "research", "importance": 3},
+      {"id": "scientific_writing", "importance": 2}
+    ],
+    "education": {"minLevel": "high_school", "preferredStreams": ["pcb", "medicine"]},
+    "workStyle": {"sector": ["public", "private", "nonprofit"], "setting": ["onsite", "field"], "focus": ["people"], "structure": "structured", "pace": "mixed"},
+    "note": "NEET-UG is conducted by the National Testing Agency. The degree, internship, and licence to practise sit under the National Medical Commission and state medical councils. Eligibility, seats, and counselling rules change. This page is not medical advice and not a substitute for the information bulletin. Do not use coaching-centre cut-offs as if they were official.",
+    "references": [
+      {"label": "National Testing Agency", "url": "https://nta.ac.in/"},
+      {"label": "National Medical Commission", "url": "https://www.nmc.org.in/"}
+    ],
+    "roadmap": [
+      {
+        "id": "foundations",
+        "title": "PCB foundations and the official bulletin",
+        "timeframe": "First focus",
+        "summary": "The academic base is Class 11 and 12 physics, chemistry, and biology. The rules live in the current NEET-UG information bulletin.",
+        "milestones": ["You have read the current bulletin’s eligibility section.", "You can teach back a biology chapter, including the diagrams, without the book open."],
+        "skills": ["biology", "anatomy"],
+        "learning": [
+          {"type": "Self-study", "title": "Information bulletin", "detail": "Read the latest NEET-UG bulletin on the NTA site: eligibility, attempts or age rules as currently written, and documents. Ignore forwarded PDFs."},
+          {"type": "Course", "title": "Class 11–12 PCB, properly", "detail": "School or an equivalent recognised course. Work every diagram and numerical. A coaching class does not replace the textbook."},
+          {"type": "Project", "title": "Error notebook", "detail": "For practice questions, record the concept you missed. Review that, not only the score."}
+        ]
+      },
+      {
+        "id": "applied",
+        "title": "The degree is the training",
+        "timeframe": "Next",
+        "summary": "MBBS is a long professional degree with preclinical subjects, clinical postings, and a compulsory internship. The structure is set by the regulator, not by this roadmap.",
+        "milestones": ["You know the current NMC outline of the programme at a high level.", "A habit of reading the primary textbook rather than only notes."],
+        "skills": ["communication", "public_health", "research"],
+        "learning": [
+          {"type": "Degree", "title": "MBBS and internship", "detail": "Once admitted, follow the college and NMC curriculum. Clinical skill is learned under supervision. Nothing on this website is a clinical protocol."},
+          {"type": "Self-study", "title": "Communication", "detail": "Practise explaining a health idea without jargon to a family member, using public information, not personal diagnoses."},
+          {"type": "Course", "title": "Community medicine as taught", "detail": "Take the community-health parts of the degree seriously. They connect to public health work later."}
+        ]
+      },
+      {
+        "id": "proof",
+        "title": "Registration, then a deliberate next step",
+        "timeframe": "Then",
+        "summary": "After internship, registration is what allows practice, under the rules of the relevant medical council. Postgraduate study is optional and competitive, through its own exam.",
+        "milestones": ["You have read the registration steps on the council site that applies to you.", "If you want a specialty, you have read the current NEET-PG bulletin rather than a rumour."],
+        "skills": ["scientific_writing", "research", "communication"],
+        "learning": [
+          {"type": "Certification", "title": "Registration", "detail": "Complete the internship and apply for registration as the National Medical Commission and the state council currently require. Do not practise on the basis of a result screenshot."},
+          {"type": "Degree", "title": "Postgraduate study, if you choose it", "detail": "NEET-PG and counselling are a separate cycle. Read the current bulletin before spending money on a preparation plan."},
+          {"type": "Self-study", "title": "Other medical careers", "detail": "Public health, research, and administration exist after the degree. Look at those catalog entries only after you understand the licence you hold or are training toward."}
+        ]
+      }
+    ],
+    "related": ["public-health", "clinical-research", "biomedical-engineer"]
+  },
+  {
+    "id": "chartered-accountant",
+    "title": "Chartered Accountant",
+    "category": "Business and Finance",
+    "tagline": "A professional qualification in accounting, audit, and tax, run by ICAI.",
+    "summary": "Chartered accountancy in India is the qualification of the Institute of Chartered Accountants of India. It combines exam levels with practical training. The scheme’s names and papers change, so the Institute’s current prospectus is the map.",
+    "interests": ["finance", "business", "data"],
+    "skills": [
+      {"id": "accounting", "importance": 5},
+      {"id": "financial_analysis", "importance": 5},
+      {"id": "quantitative_aptitude", "importance": 4},
+      {"id": "reasoning", "importance": 3},
+      {"id": "excel_analysis", "importance": 3},
+      {"id": "communication", "importance": 3}
+    ],
+    "education": {"minLevel": "high_school", "preferredStreams": ["commerce", "management"]},
+    "workStyle": {"sector": ["private", "public", "startup"], "setting": ["onsite", "hybrid"], "focus": ["data"], "structure": "structured", "pace": "fast"},
+    "note": "Entry routes differ for students after Class 12 and for graduates. Articleship or practical training is part of the qualification, under ICAI’s current rules. Use the Institute’s prospectus. This page does not restate paper names that the scheme may have changed.",
+    "references": [
+      {"label": "Institute of Chartered Accountants of India", "url": "https://www.icai.org/"}
+    ],
+    "roadmap": [
+      {
+        "id": "foundations",
+        "title": "Confirm the route, then the fundamentals",
+        "timeframe": "First focus",
+        "summary": "Work out which ICAI level you are eligible for today, and make accounting and maths solid enough to survive it.",
+        "milestones": ["The current prospectus section on eligibility, saved from icai.org.", "A set of accounting problems you can redo without notes."],
+        "skills": ["accounting", "quantitative_aptitude"],
+        "learning": [
+          {"type": "Self-study", "title": "ICAI prospectus", "detail": "Read registration, levels, and training on the Institute’s site. Coaching sites are not the scheme."},
+          {"type": "Course", "title": "Accountancy and maths", "detail": "School or bachelor's accounting, done properly: journal entries through to statements. Speed comes after accuracy."},
+          {"type": "Project", "title": "Books of a tiny venture", "detail": "Record a month of a club or a hypothetical shop by hand. Tie the cash to the statement."}
+        ]
+      },
+      {
+        "id": "applied",
+        "title": "Study in the form of the exam",
+        "timeframe": "Next",
+        "summary": "ICAI papers reward working, not recognition. Practise full questions under time.",
+        "milestones": ["A revision cycle you have completed once.", "A list of standards or topics you tend to skip, now scheduled."],
+        "skills": ["financial_analysis", "reasoning", "excel_analysis"],
+        "learning": [
+          {"type": "Self-study", "title": "Institute material first", "detail": "Use ICAI study material and past papers it publishes. Add other books only when a topic is still unclear."},
+          {"type": "Project", "title": "Timed papers", "detail": "Sit papers to time and mark them against the official suggested answers where those exist."},
+          {"type": "Course", "title": "A class, if you need structure", "detail": "A coaching class is optional. If you take one, keep the Institute’s syllabus as the checklist, not the class handout."}
+        ]
+      },
+      {
+        "id": "proof",
+        "title": "Practical training and communication",
+        "timeframe": "Then",
+        "summary": "The qualification includes supervised work. Treat articleship rules, leave, and stipends as matters to read in the current regulation, not to guess.",
+        "milestones": ["You know the current practical-training requirement and when it starts in the scheme.", "You can explain a set of accounts to a non-accountant."],
+        "skills": ["communication", "accounting", "financial_analysis"],
+        "learning": [
+          {"type": "Self-study", "title": "Training regulation", "detail": "Read the current articleship or practical training rules on the ICAI site before you sign anything."},
+          {"type": "Project", "title": "Explain a statement", "detail": "Take a simple set of accounts and write a one-page plain-language brief: what improved, what is risky, what you did not audit."},
+          {"type": "Certification", "title": "The membership is the credential", "detail": "Other finance certificates are a different profession. Finish the ICAI pathway if CA is the goal, rather than stacking unrelated badges."}
+        ]
+      }
+    ],
+    "related": ["financial-analyst", "banking-officer", "business-analyst"]
+  }
+]

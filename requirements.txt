@@ -1,2 +1,2 @@
-pandas
-scikit-learn
+# The command-line scorer uses the Python standard library only.
+# Web app dependencies live in package.json.
